@@ -297,7 +297,7 @@ M2 HSV,euclidean,00024.jpg,[262],262,"[262, 241, 163, 282, 144]",1.0,1.0
 M2 HSV,euclidean,00025.jpg,[38],244,"[244, 168, 218, 64, 130]",0.0,0.0
 M2 HSV,euclidean,00026.jpg,[238],226,"[226, 117, 59, 86, 148]",0.0,0.0
 M2 HSV,euclidean,00027.jpg,[67],47,"[47, 20, 150, 206, 272]",0.0,0.0
-M2 HSV,euclidean,00028.jpg,[86],31,"[31, 235, 154, 276, 137]",0.0,0.0
+M2 HSV,euclidean,00028.jpg,[86],235,"[235, 31, 154, 276, 137]",0.0,0.0
 M2 HSV,euclidean,00029.jpg,[133],133,"[133, 218, 123, 157, 244]",1.0,1.0
 M2 HSV,L1,00000.jpg,[120],120,"[120, 222, 204, 229, 95]",1.0,1.0
 M2 HSV,L1,00001.jpg,[170],64,"[64, 170, 221, 61, 271]",0.0,0.5
@@ -325,7 +325,7 @@ M2 HSV,L1,00022.jpg,[257],257,"[257, 247, 279, 64, 61]",1.0,1.0
 M2 HSV,L1,00023.jpg,[182],97,"[97, 77, 165, 141, 224]",0.0,0.0
 M2 HSV,L1,00024.jpg,[262],262,"[262, 241, 144, 157, 170]",1.0,1.0
 M2 HSV,L1,00025.jpg,[38],244,"[244, 218, 229, 2, 38]",0.0,0.2
-M2 HSV,L1,00026.jpg,[238],59,"[59, 226, 38, 9, 148]",0.0,0.0
+M2 HSV,L1,00026.jpg,[238],59,"[59, 226, 38, 148, 9]",0.0,0.0
 M2 HSV,L1,00027.jpg,[67],47,"[47, 67, 206, 20, 168]",0.0,0.5
 M2 HSV,L1,00028.jpg,[86],31,"[31, 154, 276, 235, 93]",0.0,0.0
 M2 HSV,L1,00029.jpg,[133],133,"[133, 218, 123, 157, 231]",1.0,1.0
@@ -355,7 +355,7 @@ M2 HSV,chi2,00022.jpg,[257],257,"[257, 247, 279, 23, 196]",1.0,1.0
 M2 HSV,chi2,00023.jpg,[182],97,"[97, 141, 212, 5, 152]",0.0,0.0
 M2 HSV,chi2,00024.jpg,[262],262,"[262, 241, 57, 144, 157]",1.0,1.0
 M2 HSV,chi2,00025.jpg,[38],229,"[229, 244, 38, 218, 160]",0.0,0.3333333333333333
-M2 HSV,chi2,00026.jpg,[238],59,"[59, 9, 231, 121, 180]",0.0,0.0
+M2 HSV,chi2,00026.jpg,[238],59,"[59, 9, 231, 180, 121]",0.0,0.0
 M2 HSV,chi2,00027.jpg,[67],47,"[47, 20, 67, 206, 182]",0.0,0.3333333333333333
 M2 HSV,chi2,00028.jpg,[86],31,"[31, 154, 276, 105, 235]",0.0,0.0
 M2 HSV,chi2,00029.jpg,[133],133,"[133, 218, 123, 157, 244]",1.0,1.0
@@ -385,7 +385,7 @@ M2 HSV,intersection,00022.jpg,[257],257,"[257, 247, 279, 64, 61]",1.0,1.0
 M2 HSV,intersection,00023.jpg,[182],97,"[97, 77, 165, 141, 224]",0.0,0.0
 M2 HSV,intersection,00024.jpg,[262],262,"[262, 241, 144, 157, 170]",1.0,1.0
 M2 HSV,intersection,00025.jpg,[38],244,"[244, 218, 229, 2, 38]",0.0,0.2
-M2 HSV,intersection,00026.jpg,[238],59,"[59, 226, 38, 9, 148]",0.0,0.0
+M2 HSV,intersection,00026.jpg,[238],59,"[59, 226, 38, 148, 9]",0.0,0.0
 M2 HSV,intersection,00027.jpg,[67],47,"[47, 67, 206, 20, 168]",0.0,0.5
 M2 HSV,intersection,00028.jpg,[86],31,"[31, 154, 276, 235, 93]",0.0,0.0
 M2 HSV,intersection,00029.jpg,[133],133,"[133, 218, 123, 157, 231]",1.0,1.0
@@ -424,7 +424,7 @@ M2 HSV,cosine,00001.jpg,[170],64,"[64, 170, 61, 74, 88]",0.0,0.5
 M2 HSV,cosine,00002.jpg,[277],277,"[277, 225, 286, 147, 105]",1.0,1.0
 M2 HSV,cosine,00003.jpg,[227],227,"[227, 78, 283, 69, 140]",1.0,1.0
 M2 HSV,cosine,00004.jpg,[251],104,"[104, 251, 154, 195, 93]",0.0,0.5
-M2 HSV,cosine,00005.jpg,[274],131,"[131, 196, 57, 216, 128]",0.0,0.0
+M2 HSV,cosine,00005.jpg,[274],131,"[131, 196, 216, 57, 128]",0.0,0.0
 M2 HSV,cosine,00006.jpg,[285],203,"[203, 276, 192, 50, 284]",0.0,0.0
 M2 HSV,cosine,00007.jpg,[258],258,"[258, 11, 49, 21, 197]",1.0,1.0
 M2 HSV,cosine,00008.jpg,[117],206,"[206, 67, 0, 18, 273]",0.0,0.0
@@ -839,7 +839,7 @@ M4 HSV chroma,euclidean,00026.jpg,[238],148,"[148, 161, 226, 118, 101]",0.0,0.0
 M4 HSV chroma,euclidean,00027.jpg,[67],47,"[47, 20, 2, 272, 150]",0.0,0.0
 M4 HSV chroma,euclidean,00028.jpg,[86],31,"[31, 235, 251, 246, 66]",0.0,0.0
 M4 HSV chroma,euclidean,00029.jpg,[133],133,"[133, 218, 3, 244, 228]",1.0,1.0
-M4 HSV chroma,L1,00000.jpg,[120],128,"[128, 222, 46, 120, 152]",0.0,0.25
+M4 HSV chroma,L1,00000.jpg,[120],128,"[128, 222, 46, 120, 207]",0.0,0.25
 M4 HSV chroma,L1,00001.jpg,[170],64,"[64, 271, 61, 228, 133]",0.0,0.0
 M4 HSV chroma,L1,00002.jpg,[277],277,"[277, 0, 147, 225, 72]",1.0,1.0
 M4 HSV chroma,L1,00003.jpg,[227],227,"[227, 69, 113, 140, 155]",1.0,1.0
@@ -895,11 +895,11 @@ M4 HSV chroma,chi2,00022.jpg,[257],257,"[257, 153, 247, 269, 213]",1.0,1.0
 M4 HSV chroma,chi2,00023.jpg,[182],46,"[46, 151, 79, 186, 224]",0.0,0.0
 M4 HSV chroma,chi2,00024.jpg,[262],262,"[262, 144, 241, 133, 249]",1.0,1.0
 M4 HSV chroma,chi2,00025.jpg,[38],38,"[38, 2, 229, 180, 189]",1.0,1.0
-M4 HSV chroma,chi2,00026.jpg,[238],148,"[148, 226, 59, 38, 118]",0.0,0.0
+M4 HSV chroma,chi2,00026.jpg,[238],148,"[148, 226, 38, 59, 118]",0.0,0.0
 M4 HSV chroma,chi2,00027.jpg,[67],47,"[47, 20, 38, 182, 42]",0.0,0.0
 M4 HSV chroma,chi2,00028.jpg,[86],251,"[251, 31, 50, 246, 154]",0.0,0.0
-M4 HSV chroma,chi2,00029.jpg,[133],133,"[133, 218, 157, 3, 228]",1.0,1.0
-M4 HSV chroma,intersection,00000.jpg,[120],128,"[128, 222, 46, 120, 152]",0.0,0.25
+M4 HSV chroma,chi2,00029.jpg,[133],133,"[133, 218, 157, 228, 3]",1.0,1.0
+M4 HSV chroma,intersection,00000.jpg,[120],128,"[128, 222, 46, 120, 207]",0.0,0.25
 M4 HSV chroma,intersection,00001.jpg,[170],64,"[64, 271, 61, 228, 133]",0.0,0.0
 M4 HSV chroma,intersection,00002.jpg,[277],277,"[277, 0, 147, 225, 72]",1.0,1.0
 M4 HSV chroma,intersection,00003.jpg,[227],227,"[227, 69, 113, 140, 155]",1.0,1.0
@@ -934,7 +934,7 @@ M4 HSV chroma,hellinger,00001.jpg,[170],64,"[64, 271, 133, 218, 244]",0.0,0.0
 M4 HSV chroma,hellinger,00002.jpg,[277],277,"[277, 225, 72, 156, 204]",1.0,1.0
 M4 HSV chroma,hellinger,00003.jpg,[227],227,"[227, 69, 113, 140, 87]",1.0,1.0
 M4 HSV chroma,hellinger,00004.jpg,[251],251,"[251, 19, 110, 142, 25]",1.0,1.0
-M4 HSV chroma,hellinger,00005.jpg,[274],240,"[240, 278, 213, 208, 280]",0.0,0.0
+M4 HSV chroma,hellinger,00005.jpg,[274],240,"[240, 278, 213, 280, 208]",0.0,0.0
 M4 HSV chroma,hellinger,00006.jpg,[285],50,"[50, 246, 22, 145, 203]",0.0,0.0
 M4 HSV chroma,hellinger,00007.jpg,[258],258,"[258, 11, 198, 49, 17]",1.0,1.0
 M4 HSV chroma,hellinger,00008.jpg,[117],0,"[0, 206, 188, 210, 150]",0.0,0.0
@@ -990,7 +990,7 @@ M4 HSV chroma,cosine,00027.jpg,[67],47,"[47, 20, 272, 2, 150]",0.0,0.0
 M4 HSV chroma,cosine,00028.jpg,[86],31,"[31, 235, 251, 50, 246]",0.0,0.0
 M4 HSV chroma,cosine,00029.jpg,[133],133,"[133, 218, 157, 3, 132]",1.0,1.0
 M4 HSV chroma,correlation,00000.jpg,[120],128,"[128, 222, 278, 162, 46]",0.0,0.0
-M4 HSV chroma,correlation,00001.jpg,[170],64,"[64, 2, 35, 61, 168]",0.0,0.0
+M4 HSV chroma,correlation,00001.jpg,[170],64,"[64, 2, 35, 61, 146]",0.0,0.0
 M4 HSV chroma,correlation,00002.jpg,[277],277,"[277, 138, 147, 204, 279]",1.0,1.0
 M4 HSV chroma,correlation,00003.jpg,[227],227,"[227, 283, 78, 44, 221]",1.0,1.0
 M4 HSV chroma,correlation,00004.jpg,[251],251,"[251, 104, 110, 154, 93]",1.0,1.0
@@ -1024,7 +1024,7 @@ M4 HSV chroma,jensen_shannon,00001.jpg,[170],64,"[64, 271, 133, 218, 244]",0.0,0
 M4 HSV chroma,jensen_shannon,00002.jpg,[277],277,"[277, 225, 72, 156, 204]",1.0,1.0
 M4 HSV chroma,jensen_shannon,00003.jpg,[227],227,"[227, 69, 113, 140, 87]",1.0,1.0
 M4 HSV chroma,jensen_shannon,00004.jpg,[251],251,"[251, 19, 142, 93, 110]",1.0,1.0
-M4 HSV chroma,jensen_shannon,00005.jpg,[274],240,"[240, 213, 280, 278, 208]",0.0,0.0
+M4 HSV chroma,jensen_shannon,00005.jpg,[274],213,"[213, 240, 280, 278, 208]",0.0,0.0
 M4 HSV chroma,jensen_shannon,00006.jpg,[285],50,"[50, 246, 22, 145, 203]",0.0,0.0
 M4 HSV chroma,jensen_shannon,00007.jpg,[258],258,"[258, 11, 198, 49, 17]",1.0,1.0
 M4 HSV chroma,jensen_shannon,00008.jpg,[117],0,"[0, 206, 188, 150, 210]",0.0,0.0
@@ -1045,10 +1045,10 @@ M4 HSV chroma,jensen_shannon,00022.jpg,[257],257,"[257, 247, 153, 269, 213]",1.0
 M4 HSV chroma,jensen_shannon,00023.jpg,[182],46,"[46, 151, 79, 186, 224]",0.0,0.0
 M4 HSV chroma,jensen_shannon,00024.jpg,[262],262,"[262, 144, 241, 133, 249]",1.0,1.0
 M4 HSV chroma,jensen_shannon,00025.jpg,[38],38,"[38, 2, 229, 180, 189]",1.0,1.0
-M4 HSV chroma,jensen_shannon,00026.jpg,[238],148,"[148, 59, 226, 102, 38]",0.0,0.0
+M4 HSV chroma,jensen_shannon,00026.jpg,[238],148,"[148, 38, 102, 226, 118]",0.0,0.0
 M4 HSV chroma,jensen_shannon,00027.jpg,[67],20,"[20, 47, 38, 182, 42]",0.0,0.0
 M4 HSV chroma,jensen_shannon,00028.jpg,[86],251,"[251, 31, 50, 246, 25]",0.0,0.0
-M4 HSV chroma,jensen_shannon,00029.jpg,[133],133,"[133, 218, 157, 3, 168]",1.0,1.0
+M4 HSV chroma,jensen_shannon,00029.jpg,[133],133,"[133, 218, 157, 3, 228]",1.0,1.0
 M4 HSV chroma,emd,00000.jpg,[120],125,"[125, 79, 226, 151, 236]",0.0,0.0
 M4 HSV chroma,emd,00001.jpg,[170],57,"[57, 281, 123, 133, 70]",0.0,0.0
 M4 HSV chroma,emd,00002.jpg,[277],277,"[277, 134, 0, 15, 147]",1.0,1.0
@@ -1621,320 +1621,320 @@ M6 Weighted hue,emd,00028.jpg,[86],150,"[150, 31, 200, 151, 46]",0.0,0.0
 M6 Weighted hue,emd,00029.jpg,[133],57,"[57, 133, 64, 166, 81]",0.0,0.5
 M7 Gradient orientation,euclidean,00000.jpg,[120],141,"[141, 215, 261, 252, 32]",0.0,0.0
 M7 Gradient orientation,euclidean,00001.jpg,[170],90,"[90, 113, 177, 95, 170]",0.0,0.2
-M7 Gradient orientation,euclidean,00002.jpg,[277],270,"[270, 206, 118, 285, 36]",0.0,0.0
+M7 Gradient orientation,euclidean,00002.jpg,[277],206,"[206, 270, 101, 118, 285]",0.0,0.0
 M7 Gradient orientation,euclidean,00003.jpg,[227],72,"[72, 227, 120, 54, 27]",0.0,0.5
-M7 Gradient orientation,euclidean,00004.jpg,[251],251,"[251, 236, 157, 115, 54]",1.0,1.0
-M7 Gradient orientation,euclidean,00005.jpg,[274],46,"[46, 130, 266, 247, 107]",0.0,0.0
+M7 Gradient orientation,euclidean,00004.jpg,[251],251,"[251, 157, 236, 115, 54]",1.0,1.0
+M7 Gradient orientation,euclidean,00005.jpg,[274],46,"[46, 130, 107, 147, 266]",0.0,0.0
 M7 Gradient orientation,euclidean,00006.jpg,[285],114,"[114, 264, 277, 24, 222]",0.0,0.0
-M7 Gradient orientation,euclidean,00007.jpg,[258],258,"[258, 91, 144, 116, 43]",1.0,1.0
+M7 Gradient orientation,euclidean,00007.jpg,[258],258,"[258, 91, 144, 116, 11]",1.0,1.0
 M7 Gradient orientation,euclidean,00008.jpg,[117],117,"[117, 278, 249, 18, 11]",1.0,1.0
 M7 Gradient orientation,euclidean,00009.jpg,[203],203,"[203, 60, 86, 271, 55]",1.0,1.0
 M7 Gradient orientation,euclidean,00010.jpg,[192],192,"[192, 257, 184, 268, 210]",1.0,1.0
 M7 Gradient orientation,euclidean,00011.jpg,[22],22,"[22, 239, 174, 237, 173]",1.0,1.0
 M7 Gradient orientation,euclidean,00012.jpg,[113],285,"[285, 160, 18, 101, 123]",0.0,0.0
-M7 Gradient orientation,euclidean,00013.jpg,[101],118,"[118, 270, 90, 170, 75]",0.0,0.0
-M7 Gradient orientation,euclidean,00014.jpg,[174],168,"[168, 193, 27, 248, 68]",0.0,0.0
-M7 Gradient orientation,euclidean,00015.jpg,[155],155,"[155, 205, 110, 228, 265]",1.0,1.0
-M7 Gradient orientation,euclidean,00016.jpg,[270],264,"[264, 222, 277, 118, 24]",0.0,0.0
+M7 Gradient orientation,euclidean,00013.jpg,[101],118,"[118, 90, 170, 270, 75]",0.0,0.0
+M7 Gradient orientation,euclidean,00014.jpg,[174],168,"[168, 193, 27, 248, 174]",0.0,0.2
+M7 Gradient orientation,euclidean,00015.jpg,[155],155,"[155, 205, 110, 265, 228]",1.0,1.0
+M7 Gradient orientation,euclidean,00016.jpg,[270],264,"[264, 277, 222, 118, 24]",0.0,0.0
 M7 Gradient orientation,euclidean,00017.jpg,[47],268,"[268, 257, 13, 2, 192]",0.0,0.0
-M7 Gradient orientation,euclidean,00018.jpg,[286],55,"[55, 286, 254, 138, 15]",0.0,0.5
+M7 Gradient orientation,euclidean,00018.jpg,[286],55,"[55, 286, 254, 15, 138]",0.0,0.5
 M7 Gradient orientation,euclidean,00019.jpg,[215],170,"[170, 113, 29, 278, 123]",0.0,0.0
-M7 Gradient orientation,euclidean,00020.jpg,[262],262,"[262, 145, 85, 212, 33]",1.0,1.0
+M7 Gradient orientation,euclidean,00020.jpg,[262],262,"[262, 145, 85, 33, 40]",1.0,1.0
 M7 Gradient orientation,euclidean,00021.jpg,[245],264,"[264, 114, 277, 45, 245]",0.0,0.2
 M7 Gradient orientation,euclidean,00022.jpg,[257],268,"[268, 257, 192, 13, 77]",0.0,0.5
-M7 Gradient orientation,euclidean,00023.jpg,[182],70,"[70, 281, 182, 54, 223]",0.0,0.3333333333333333
+M7 Gradient orientation,euclidean,00023.jpg,[182],70,"[70, 281, 182, 54, 103]",0.0,0.3333333333333333
 M7 Gradient orientation,euclidean,00024.jpg,[262],262,"[262, 40, 145, 85, 104]",1.0,1.0
-M7 Gradient orientation,euclidean,00025.jpg,[38],268,"[268, 13, 77, 257, 245]",0.0,0.0
+M7 Gradient orientation,euclidean,00025.jpg,[38],268,"[268, 13, 77, 257, 100]",0.0,0.0
 M7 Gradient orientation,euclidean,00026.jpg,[238],118,"[118, 270, 75, 170, 77]",0.0,0.0
-M7 Gradient orientation,euclidean,00027.jpg,[67],183,"[183, 277, 118, 264, 77]",0.0,0.0
-M7 Gradient orientation,euclidean,00028.jpg,[86],86,"[86, 203, 49, 55, 92]",1.0,1.0
-M7 Gradient orientation,euclidean,00029.jpg,[133],154,"[154, 104, 133, 43, 275]",0.0,0.3333333333333333
+M7 Gradient orientation,euclidean,00027.jpg,[67],183,"[183, 277, 264, 118, 24]",0.0,0.0
+M7 Gradient orientation,euclidean,00028.jpg,[86],86,"[86, 203, 49, 92, 125]",1.0,1.0
+M7 Gradient orientation,euclidean,00029.jpg,[133],154,"[154, 104, 275, 43, 133]",0.0,0.2
 M7 Gradient orientation,L1,00000.jpg,[120],141,"[141, 215, 238, 261, 32]",0.0,0.0
 M7 Gradient orientation,L1,00001.jpg,[170],90,"[90, 113, 29, 170, 177]",0.0,0.25
-M7 Gradient orientation,L1,00002.jpg,[277],206,"[206, 270, 277, 118, 101]",0.0,0.3333333333333333
+M7 Gradient orientation,L1,00002.jpg,[277],206,"[206, 277, 270, 101, 118]",0.0,0.5
 M7 Gradient orientation,L1,00003.jpg,[227],72,"[72, 227, 54, 120, 27]",0.0,0.5
-M7 Gradient orientation,L1,00004.jpg,[251],251,"[251, 236, 157, 233, 76]",1.0,1.0
+M7 Gradient orientation,L1,00004.jpg,[251],251,"[251, 157, 236, 233, 76]",1.0,1.0
 M7 Gradient orientation,L1,00005.jpg,[274],46,"[46, 107, 266, 130, 140]",0.0,0.0
 M7 Gradient orientation,L1,00006.jpg,[285],114,"[114, 285, 264, 283, 277]",0.0,0.5
-M7 Gradient orientation,L1,00007.jpg,[258],258,"[258, 91, 144, 278, 116]",1.0,1.0
+M7 Gradient orientation,L1,00007.jpg,[258],258,"[258, 91, 144, 116, 278]",1.0,1.0
 M7 Gradient orientation,L1,00008.jpg,[117],117,"[117, 69, 278, 11, 208]",1.0,1.0
-M7 Gradient orientation,L1,00009.jpg,[203],203,"[203, 60, 271, 286, 86]",1.0,1.0
-M7 Gradient orientation,L1,00010.jpg,[192],192,"[192, 257, 184, 268, 2]",1.0,1.0
+M7 Gradient orientation,L1,00009.jpg,[203],203,"[203, 60, 271, 286, 55]",1.0,1.0
+M7 Gradient orientation,L1,00010.jpg,[192],192,"[192, 257, 184, 268, 210]",1.0,1.0
 M7 Gradient orientation,L1,00011.jpg,[22],22,"[22, 239, 174, 237, 140]",1.0,1.0
 M7 Gradient orientation,L1,00012.jpg,[113],285,"[285, 160, 101, 58, 18]",0.0,0.0
-M7 Gradient orientation,L1,00013.jpg,[101],270,"[270, 75, 90, 118, 285]",0.0,0.0
+M7 Gradient orientation,L1,00013.jpg,[101],270,"[270, 90, 118, 285, 75]",0.0,0.0
 M7 Gradient orientation,L1,00014.jpg,[174],168,"[168, 174, 193, 27, 68]",0.0,0.5
-M7 Gradient orientation,L1,00015.jpg,[155],155,"[155, 205, 110, 228, 81]",1.0,1.0
-M7 Gradient orientation,L1,00016.jpg,[270],264,"[264, 118, 222, 277, 24]",0.0,0.0
+M7 Gradient orientation,L1,00015.jpg,[155],155,"[155, 205, 110, 81, 228]",1.0,1.0
+M7 Gradient orientation,L1,00016.jpg,[270],264,"[264, 118, 277, 222, 24]",0.0,0.0
 M7 Gradient orientation,L1,00017.jpg,[47],268,"[268, 257, 52, 77, 0]",0.0,0.0
 M7 Gradient orientation,L1,00018.jpg,[286],55,"[55, 286, 254, 138, 15]",0.0,0.5
 M7 Gradient orientation,L1,00019.jpg,[215],170,"[170, 215, 113, 29, 123]",0.0,0.5
-M7 Gradient orientation,L1,00020.jpg,[262],262,"[262, 145, 40, 212, 56]",1.0,1.0
-M7 Gradient orientation,L1,00021.jpg,[245],245,"[245, 264, 24, 183, 277]",1.0,1.0
+M7 Gradient orientation,L1,00020.jpg,[262],262,"[262, 145, 56, 40, 212]",1.0,1.0
+M7 Gradient orientation,L1,00021.jpg,[245],264,"[264, 245, 24, 183, 277]",0.0,0.5
 M7 Gradient orientation,L1,00022.jpg,[257],257,"[257, 268, 192, 13, 77]",1.0,1.0
-M7 Gradient orientation,L1,00023.jpg,[182],182,"[182, 70, 281, 103, 44]",1.0,1.0
+M7 Gradient orientation,L1,00023.jpg,[182],182,"[182, 281, 70, 103, 44]",1.0,1.0
 M7 Gradient orientation,L1,00024.jpg,[262],262,"[262, 40, 246, 145, 104]",1.0,1.0
-M7 Gradient orientation,L1,00025.jpg,[38],77,"[77, 45, 277, 13, 58]",0.0,0.0
+M7 Gradient orientation,L1,00025.jpg,[38],77,"[77, 45, 277, 58, 52]",0.0,0.0
 M7 Gradient orientation,L1,00026.jpg,[238],270,"[270, 77, 118, 189, 13]",0.0,0.0
-M7 Gradient orientation,L1,00027.jpg,[67],264,"[264, 183, 277, 77, 67]",0.0,0.2
+M7 Gradient orientation,L1,00027.jpg,[67],264,"[264, 183, 277, 52, 77]",0.0,0.0
 M7 Gradient orientation,L1,00028.jpg,[86],86,"[86, 49, 23, 203, 244]",1.0,1.0
 M7 Gradient orientation,L1,00029.jpg,[133],154,"[154, 133, 104, 275, 132]",0.0,0.5
 M7 Gradient orientation,chi2,00000.jpg,[120],141,"[141, 215, 32, 238, 229]",0.0,0.0
 M7 Gradient orientation,chi2,00001.jpg,[170],29,"[29, 170, 113, 160, 177]",0.0,0.5
-M7 Gradient orientation,chi2,00002.jpg,[277],277,"[277, 206, 270, 58, 45]",1.0,1.0
+M7 Gradient orientation,chi2,00002.jpg,[277],277,"[277, 206, 270, 58, 101]",1.0,1.0
 M7 Gradient orientation,chi2,00003.jpg,[227],72,"[72, 227, 54, 27, 120]",0.0,0.5
-M7 Gradient orientation,chi2,00004.jpg,[251],251,"[251, 236, 157, 233, 120]",1.0,1.0
-M7 Gradient orientation,chi2,00005.jpg,[274],46,"[46, 107, 130, 266, 247]",0.0,0.0
+M7 Gradient orientation,chi2,00004.jpg,[251],251,"[251, 157, 233, 236, 120]",1.0,1.0
+M7 Gradient orientation,chi2,00005.jpg,[274],46,"[46, 107, 130, 266, 39]",0.0,0.0
 M7 Gradient orientation,chi2,00006.jpg,[285],114,"[114, 285, 264, 277, 24]",0.0,0.5
 M7 Gradient orientation,chi2,00007.jpg,[258],258,"[258, 144, 116, 91, 163]",1.0,1.0
 M7 Gradient orientation,chi2,00008.jpg,[117],117,"[117, 278, 69, 11, 208]",1.0,1.0
 M7 Gradient orientation,chi2,00009.jpg,[203],203,"[203, 60, 86, 55, 271]",1.0,1.0
 M7 Gradient orientation,chi2,00010.jpg,[192],192,"[192, 257, 184, 268, 2]",1.0,1.0
 M7 Gradient orientation,chi2,00011.jpg,[22],22,"[22, 239, 174, 237, 167]",1.0,1.0
-M7 Gradient orientation,chi2,00012.jpg,[113],285,"[285, 160, 186, 101, 114]",0.0,0.0
-M7 Gradient orientation,chi2,00013.jpg,[101],270,"[270, 170, 75, 118, 285]",0.0,0.0
+M7 Gradient orientation,chi2,00012.jpg,[113],285,"[285, 160, 101, 186, 114]",0.0,0.0
+M7 Gradient orientation,chi2,00013.jpg,[101],270,"[270, 170, 75, 285, 118]",0.0,0.0
 M7 Gradient orientation,chi2,00014.jpg,[174],168,"[168, 174, 193, 248, 120]",0.0,0.5
-M7 Gradient orientation,chi2,00015.jpg,[155],155,"[155, 205, 110, 265, 228]",1.0,1.0
-M7 Gradient orientation,chi2,00016.jpg,[270],264,"[264, 283, 67, 277, 118]",0.0,0.0
-M7 Gradient orientation,chi2,00017.jpg,[47],257,"[257, 52, 77, 2, 268]",0.0,0.0
+M7 Gradient orientation,chi2,00015.jpg,[155],155,"[155, 205, 110, 81, 265]",1.0,1.0
+M7 Gradient orientation,chi2,00016.jpg,[270],264,"[264, 283, 277, 67, 24]",0.0,0.0
+M7 Gradient orientation,chi2,00017.jpg,[47],52,"[52, 257, 77, 2, 268]",0.0,0.0
 M7 Gradient orientation,chi2,00018.jpg,[286],286,"[286, 55, 138, 254, 271]",1.0,1.0
 M7 Gradient orientation,chi2,00019.jpg,[215],215,"[215, 170, 113, 29, 123]",1.0,1.0
-M7 Gradient orientation,chi2,00020.jpg,[262],262,"[262, 145, 40, 139, 85]",1.0,1.0
+M7 Gradient orientation,chi2,00020.jpg,[262],262,"[262, 145, 139, 40, 56]",1.0,1.0
 M7 Gradient orientation,chi2,00021.jpg,[245],245,"[245, 264, 183, 24, 100]",1.0,1.0
 M7 Gradient orientation,chi2,00022.jpg,[257],257,"[257, 192, 268, 77, 13]",1.0,1.0
 M7 Gradient orientation,chi2,00023.jpg,[182],182,"[182, 281, 70, 258, 44]",1.0,1.0
 M7 Gradient orientation,chi2,00024.jpg,[262],262,"[262, 40, 246, 145, 85]",1.0,1.0
-M7 Gradient orientation,chi2,00025.jpg,[38],77,"[77, 45, 13, 58, 52]",0.0,0.0
-M7 Gradient orientation,chi2,00026.jpg,[238],270,"[270, 189, 118, 170, 75]",0.0,0.0
-M7 Gradient orientation,chi2,00027.jpg,[67],52,"[52, 183, 67, 264, 77]",0.0,0.3333333333333333
+M7 Gradient orientation,chi2,00025.jpg,[38],77,"[77, 45, 13, 58, 257]",0.0,0.0
+M7 Gradient orientation,chi2,00026.jpg,[238],270,"[270, 118, 170, 189, 77]",0.0,0.0
+M7 Gradient orientation,chi2,00027.jpg,[67],52,"[52, 183, 67, 264, 207]",0.0,0.3333333333333333
 M7 Gradient orientation,chi2,00028.jpg,[86],86,"[86, 203, 49, 244, 271]",1.0,1.0
-M7 Gradient orientation,chi2,00029.jpg,[133],154,"[154, 133, 43, 104, 275]",0.0,0.5
+M7 Gradient orientation,chi2,00029.jpg,[133],154,"[154, 133, 104, 43, 275]",0.0,0.5
 M7 Gradient orientation,intersection,00000.jpg,[120],141,"[141, 215, 238, 261, 32]",0.0,0.0
 M7 Gradient orientation,intersection,00001.jpg,[170],90,"[90, 113, 29, 170, 177]",0.0,0.25
-M7 Gradient orientation,intersection,00002.jpg,[277],206,"[206, 270, 277, 118, 101]",0.0,0.3333333333333333
+M7 Gradient orientation,intersection,00002.jpg,[277],206,"[206, 277, 270, 101, 118]",0.0,0.5
 M7 Gradient orientation,intersection,00003.jpg,[227],72,"[72, 227, 54, 120, 27]",0.0,0.5
-M7 Gradient orientation,intersection,00004.jpg,[251],251,"[251, 236, 157, 233, 76]",1.0,1.0
+M7 Gradient orientation,intersection,00004.jpg,[251],251,"[251, 157, 236, 233, 76]",1.0,1.0
 M7 Gradient orientation,intersection,00005.jpg,[274],46,"[46, 107, 266, 130, 140]",0.0,0.0
 M7 Gradient orientation,intersection,00006.jpg,[285],114,"[114, 285, 264, 283, 277]",0.0,0.5
-M7 Gradient orientation,intersection,00007.jpg,[258],258,"[258, 91, 144, 278, 116]",1.0,1.0
+M7 Gradient orientation,intersection,00007.jpg,[258],258,"[258, 91, 144, 116, 278]",1.0,1.0
 M7 Gradient orientation,intersection,00008.jpg,[117],117,"[117, 69, 278, 11, 208]",1.0,1.0
-M7 Gradient orientation,intersection,00009.jpg,[203],203,"[203, 60, 271, 286, 86]",1.0,1.0
-M7 Gradient orientation,intersection,00010.jpg,[192],192,"[192, 257, 184, 268, 2]",1.0,1.0
+M7 Gradient orientation,intersection,00009.jpg,[203],203,"[203, 60, 271, 286, 55]",1.0,1.0
+M7 Gradient orientation,intersection,00010.jpg,[192],192,"[192, 257, 184, 268, 210]",1.0,1.0
 M7 Gradient orientation,intersection,00011.jpg,[22],22,"[22, 239, 174, 237, 140]",1.0,1.0
 M7 Gradient orientation,intersection,00012.jpg,[113],285,"[285, 160, 101, 58, 18]",0.0,0.0
-M7 Gradient orientation,intersection,00013.jpg,[101],270,"[270, 75, 90, 118, 285]",0.0,0.0
+M7 Gradient orientation,intersection,00013.jpg,[101],270,"[270, 90, 118, 285, 75]",0.0,0.0
 M7 Gradient orientation,intersection,00014.jpg,[174],168,"[168, 174, 193, 27, 68]",0.0,0.5
-M7 Gradient orientation,intersection,00015.jpg,[155],155,"[155, 205, 110, 228, 81]",1.0,1.0
-M7 Gradient orientation,intersection,00016.jpg,[270],264,"[264, 118, 222, 277, 24]",0.0,0.0
+M7 Gradient orientation,intersection,00015.jpg,[155],155,"[155, 205, 110, 81, 228]",1.0,1.0
+M7 Gradient orientation,intersection,00016.jpg,[270],264,"[264, 118, 277, 222, 24]",0.0,0.0
 M7 Gradient orientation,intersection,00017.jpg,[47],268,"[268, 257, 52, 77, 0]",0.0,0.0
 M7 Gradient orientation,intersection,00018.jpg,[286],55,"[55, 286, 254, 138, 15]",0.0,0.5
 M7 Gradient orientation,intersection,00019.jpg,[215],170,"[170, 215, 113, 29, 123]",0.0,0.5
-M7 Gradient orientation,intersection,00020.jpg,[262],262,"[262, 145, 40, 212, 56]",1.0,1.0
-M7 Gradient orientation,intersection,00021.jpg,[245],245,"[245, 264, 24, 183, 277]",1.0,1.0
+M7 Gradient orientation,intersection,00020.jpg,[262],262,"[262, 145, 56, 40, 212]",1.0,1.0
+M7 Gradient orientation,intersection,00021.jpg,[245],264,"[264, 245, 24, 183, 277]",0.0,0.5
 M7 Gradient orientation,intersection,00022.jpg,[257],257,"[257, 268, 192, 13, 77]",1.0,1.0
-M7 Gradient orientation,intersection,00023.jpg,[182],182,"[182, 70, 281, 103, 44]",1.0,1.0
+M7 Gradient orientation,intersection,00023.jpg,[182],182,"[182, 281, 70, 103, 44]",1.0,1.0
 M7 Gradient orientation,intersection,00024.jpg,[262],262,"[262, 40, 246, 145, 104]",1.0,1.0
-M7 Gradient orientation,intersection,00025.jpg,[38],77,"[77, 45, 277, 13, 58]",0.0,0.0
+M7 Gradient orientation,intersection,00025.jpg,[38],77,"[77, 45, 277, 58, 52]",0.0,0.0
 M7 Gradient orientation,intersection,00026.jpg,[238],270,"[270, 77, 118, 189, 13]",0.0,0.0
-M7 Gradient orientation,intersection,00027.jpg,[67],264,"[264, 183, 277, 77, 67]",0.0,0.2
+M7 Gradient orientation,intersection,00027.jpg,[67],264,"[264, 183, 277, 52, 77]",0.0,0.0
 M7 Gradient orientation,intersection,00028.jpg,[86],86,"[86, 49, 23, 203, 244]",1.0,1.0
 M7 Gradient orientation,intersection,00029.jpg,[133],154,"[154, 133, 104, 275, 132]",0.0,0.5
 M7 Gradient orientation,hellinger,00000.jpg,[120],141,"[141, 215, 32, 238, 229]",0.0,0.0
 M7 Gradient orientation,hellinger,00001.jpg,[170],29,"[29, 170, 113, 160, 177]",0.0,0.5
-M7 Gradient orientation,hellinger,00002.jpg,[277],277,"[277, 206, 270, 58, 45]",1.0,1.0
+M7 Gradient orientation,hellinger,00002.jpg,[277],277,"[277, 206, 270, 58, 101]",1.0,1.0
 M7 Gradient orientation,hellinger,00003.jpg,[227],72,"[72, 227, 54, 27, 120]",0.0,0.5
-M7 Gradient orientation,hellinger,00004.jpg,[251],251,"[251, 236, 157, 233, 120]",1.0,1.0
-M7 Gradient orientation,hellinger,00005.jpg,[274],46,"[46, 107, 130, 266, 247]",0.0,0.0
+M7 Gradient orientation,hellinger,00004.jpg,[251],251,"[251, 157, 233, 236, 120]",1.0,1.0
+M7 Gradient orientation,hellinger,00005.jpg,[274],46,"[46, 107, 130, 266, 39]",0.0,0.0
 M7 Gradient orientation,hellinger,00006.jpg,[285],114,"[114, 285, 264, 277, 24]",0.0,0.5
 M7 Gradient orientation,hellinger,00007.jpg,[258],258,"[258, 144, 116, 91, 163]",1.0,1.0
 M7 Gradient orientation,hellinger,00008.jpg,[117],117,"[117, 278, 69, 11, 208]",1.0,1.0
 M7 Gradient orientation,hellinger,00009.jpg,[203],203,"[203, 60, 86, 55, 271]",1.0,1.0
 M7 Gradient orientation,hellinger,00010.jpg,[192],192,"[192, 257, 184, 268, 2]",1.0,1.0
 M7 Gradient orientation,hellinger,00011.jpg,[22],22,"[22, 239, 174, 237, 167]",1.0,1.0
-M7 Gradient orientation,hellinger,00012.jpg,[113],285,"[285, 160, 186, 101, 114]",0.0,0.0
-M7 Gradient orientation,hellinger,00013.jpg,[101],270,"[270, 170, 75, 118, 285]",0.0,0.0
-M7 Gradient orientation,hellinger,00014.jpg,[174],168,"[168, 174, 193, 248, 120]",0.0,0.5
-M7 Gradient orientation,hellinger,00015.jpg,[155],155,"[155, 205, 110, 265, 228]",1.0,1.0
-M7 Gradient orientation,hellinger,00016.jpg,[270],264,"[264, 283, 67, 277, 118]",0.0,0.0
-M7 Gradient orientation,hellinger,00017.jpg,[47],257,"[257, 52, 77, 2, 268]",0.0,0.0
+M7 Gradient orientation,hellinger,00012.jpg,[113],285,"[285, 160, 101, 186, 114]",0.0,0.0
+M7 Gradient orientation,hellinger,00013.jpg,[101],270,"[270, 170, 75, 285, 118]",0.0,0.0
+M7 Gradient orientation,hellinger,00014.jpg,[174],168,"[168, 174, 248, 193, 120]",0.0,0.5
+M7 Gradient orientation,hellinger,00015.jpg,[155],155,"[155, 205, 110, 81, 265]",1.0,1.0
+M7 Gradient orientation,hellinger,00016.jpg,[270],264,"[264, 283, 277, 67, 24]",0.0,0.0
+M7 Gradient orientation,hellinger,00017.jpg,[47],52,"[52, 257, 77, 2, 268]",0.0,0.0
 M7 Gradient orientation,hellinger,00018.jpg,[286],286,"[286, 55, 138, 254, 271]",1.0,1.0
 M7 Gradient orientation,hellinger,00019.jpg,[215],215,"[215, 170, 113, 29, 123]",1.0,1.0
-M7 Gradient orientation,hellinger,00020.jpg,[262],262,"[262, 145, 40, 139, 85]",1.0,1.0
+M7 Gradient orientation,hellinger,00020.jpg,[262],262,"[262, 145, 139, 40, 56]",1.0,1.0
 M7 Gradient orientation,hellinger,00021.jpg,[245],245,"[245, 264, 183, 24, 100]",1.0,1.0
 M7 Gradient orientation,hellinger,00022.jpg,[257],257,"[257, 192, 268, 77, 13]",1.0,1.0
 M7 Gradient orientation,hellinger,00023.jpg,[182],182,"[182, 281, 70, 258, 44]",1.0,1.0
 M7 Gradient orientation,hellinger,00024.jpg,[262],262,"[262, 40, 246, 145, 85]",1.0,1.0
 M7 Gradient orientation,hellinger,00025.jpg,[38],77,"[77, 45, 13, 58, 52]",0.0,0.0
-M7 Gradient orientation,hellinger,00026.jpg,[238],270,"[270, 189, 118, 170, 75]",0.0,0.0
-M7 Gradient orientation,hellinger,00027.jpg,[67],52,"[52, 183, 67, 264, 77]",0.0,0.3333333333333333
+M7 Gradient orientation,hellinger,00026.jpg,[238],270,"[270, 118, 170, 189, 75]",0.0,0.0
+M7 Gradient orientation,hellinger,00027.jpg,[67],52,"[52, 183, 67, 264, 207]",0.0,0.3333333333333333
 M7 Gradient orientation,hellinger,00028.jpg,[86],86,"[86, 203, 49, 244, 271]",1.0,1.0
-M7 Gradient orientation,hellinger,00029.jpg,[133],154,"[154, 133, 43, 104, 275]",0.0,0.5
-M7 Gradient orientation,cosine,00000.jpg,[120],141,"[141, 252, 215, 100, 229]",0.0,0.0
+M7 Gradient orientation,hellinger,00029.jpg,[133],154,"[154, 133, 104, 43, 275]",0.0,0.5
+M7 Gradient orientation,cosine,00000.jpg,[120],141,"[141, 252, 215, 229, 100]",0.0,0.0
 M7 Gradient orientation,cosine,00001.jpg,[170],90,"[90, 113, 36, 206, 177]",0.0,0.0
-M7 Gradient orientation,cosine,00002.jpg,[277],206,"[206, 270, 285, 118, 160]",0.0,0.0
+M7 Gradient orientation,cosine,00002.jpg,[277],206,"[206, 285, 270, 118, 101]",0.0,0.0
 M7 Gradient orientation,cosine,00003.jpg,[227],72,"[72, 227, 120, 54, 27]",0.0,0.5
-M7 Gradient orientation,cosine,00004.jpg,[251],251,"[251, 236, 115, 157, 54]",1.0,1.0
-M7 Gradient orientation,cosine,00005.jpg,[274],46,"[46, 130, 107, 266, 247]",0.0,0.0
-M7 Gradient orientation,cosine,00006.jpg,[285],264,"[264, 114, 277, 24, 222]",0.0,0.0
+M7 Gradient orientation,cosine,00004.jpg,[251],251,"[251, 236, 157, 115, 261]",1.0,1.0
+M7 Gradient orientation,cosine,00005.jpg,[274],46,"[46, 130, 107, 147, 266]",0.0,0.0
+M7 Gradient orientation,cosine,00006.jpg,[285],114,"[114, 264, 277, 24, 222]",0.0,0.0
 M7 Gradient orientation,cosine,00007.jpg,[258],258,"[258, 91, 144, 33, 142]",1.0,1.0
 M7 Gradient orientation,cosine,00008.jpg,[117],117,"[117, 278, 18, 249, 11]",1.0,1.0
-M7 Gradient orientation,cosine,00009.jpg,[203],203,"[203, 86, 60, 271, 125]",1.0,1.0
+M7 Gradient orientation,cosine,00009.jpg,[203],203,"[203, 60, 86, 271, 125]",1.0,1.0
 M7 Gradient orientation,cosine,00010.jpg,[192],192,"[192, 257, 184, 0, 210]",1.0,1.0
-M7 Gradient orientation,cosine,00011.jpg,[22],22,"[22, 239, 174, 237, 173]",1.0,1.0
-M7 Gradient orientation,cosine,00012.jpg,[113],285,"[285, 18, 101, 160, 123]",0.0,0.0
-M7 Gradient orientation,cosine,00013.jpg,[101],118,"[118, 170, 270, 90, 75]",0.0,0.0
-M7 Gradient orientation,cosine,00014.jpg,[174],168,"[168, 248, 193, 27, 174]",0.0,0.2
-M7 Gradient orientation,cosine,00015.jpg,[155],155,"[155, 205, 110, 228, 265]",1.0,1.0
-M7 Gradient orientation,cosine,00016.jpg,[270],264,"[264, 222, 277, 118, 45]",0.0,0.0
+M7 Gradient orientation,cosine,00011.jpg,[22],22,"[22, 239, 174, 237, 234]",1.0,1.0
+M7 Gradient orientation,cosine,00012.jpg,[113],285,"[285, 101, 18, 160, 123]",0.0,0.0
+M7 Gradient orientation,cosine,00013.jpg,[101],118,"[118, 170, 90, 270, 113]",0.0,0.0
+M7 Gradient orientation,cosine,00014.jpg,[174],168,"[168, 248, 193, 120, 27]",0.0,0.0
+M7 Gradient orientation,cosine,00015.jpg,[155],155,"[155, 205, 110, 265, 228]",1.0,1.0
+M7 Gradient orientation,cosine,00016.jpg,[270],264,"[264, 277, 222, 118, 24]",0.0,0.0
 M7 Gradient orientation,cosine,00017.jpg,[47],268,"[268, 257, 13, 2, 192]",0.0,0.0
 M7 Gradient orientation,cosine,00018.jpg,[286],55,"[55, 286, 254, 163, 15]",0.0,0.5
 M7 Gradient orientation,cosine,00019.jpg,[215],170,"[170, 29, 113, 160, 123]",0.0,0.0
-M7 Gradient orientation,cosine,00020.jpg,[262],262,"[262, 145, 212, 85, 33]",1.0,1.0
-M7 Gradient orientation,cosine,00021.jpg,[245],264,"[264, 277, 114, 45, 245]",0.0,0.2
+M7 Gradient orientation,cosine,00020.jpg,[262],262,"[262, 145, 85, 33, 212]",1.0,1.0
+M7 Gradient orientation,cosine,00021.jpg,[245],264,"[264, 277, 114, 45, 183]",0.0,0.0
 M7 Gradient orientation,cosine,00022.jpg,[257],268,"[268, 257, 13, 192, 255]",0.0,0.5
-M7 Gradient orientation,cosine,00023.jpg,[182],70,"[70, 281, 182, 54, 103]",0.0,0.3333333333333333
+M7 Gradient orientation,cosine,00023.jpg,[182],70,"[70, 281, 182, 44, 54]",0.0,0.3333333333333333
 M7 Gradient orientation,cosine,00024.jpg,[262],262,"[262, 40, 145, 85, 246]",1.0,1.0
 M7 Gradient orientation,cosine,00025.jpg,[38],268,"[268, 13, 77, 257, 100]",0.0,0.0
-M7 Gradient orientation,cosine,00026.jpg,[238],118,"[118, 270, 170, 208, 75]",0.0,0.0
-M7 Gradient orientation,cosine,00027.jpg,[67],183,"[183, 277, 45, 118, 264]",0.0,0.0
-M7 Gradient orientation,cosine,00028.jpg,[86],86,"[86, 203, 49, 55, 92]",1.0,1.0
+M7 Gradient orientation,cosine,00026.jpg,[238],118,"[118, 270, 170, 77, 75]",0.0,0.0
+M7 Gradient orientation,cosine,00027.jpg,[67],183,"[183, 277, 45, 264, 118]",0.0,0.0
+M7 Gradient orientation,cosine,00028.jpg,[86],86,"[86, 203, 49, 55, 125]",1.0,1.0
 M7 Gradient orientation,cosine,00029.jpg,[133],154,"[154, 104, 43, 218, 133]",0.0,0.2
-M7 Gradient orientation,correlation,00000.jpg,[120],100,"[100, 141, 246, 252, 229]",0.0,0.0
+M7 Gradient orientation,correlation,00000.jpg,[120],100,"[100, 141, 246, 229, 252]",0.0,0.0
 M7 Gradient orientation,correlation,00001.jpg,[170],36,"[36, 90, 144, 113, 222]",0.0,0.0
-M7 Gradient orientation,correlation,00002.jpg,[277],113,"[113, 285, 278, 160, 206]",0.0,0.0
+M7 Gradient orientation,correlation,00002.jpg,[277],113,"[113, 285, 278, 123, 29]",0.0,0.0
 M7 Gradient orientation,correlation,00003.jpg,[227],72,"[72, 232, 281, 70, 227]",0.0,0.2
-M7 Gradient orientation,correlation,00004.jpg,[251],268,"[268, 236, 251, 257, 13]",0.0,0.3333333333333333
-M7 Gradient orientation,correlation,00005.jpg,[274],236,"[236, 268, 257, 115, 192]",0.0,0.0
-M7 Gradient orientation,correlation,00006.jpg,[285],264,"[264, 139, 114, 138, 277]",0.0,0.0
-M7 Gradient orientation,correlation,00007.jpg,[258],73,"[73, 45, 271, 258, 91]",0.0,0.25
+M7 Gradient orientation,correlation,00004.jpg,[251],268,"[268, 236, 251, 257, 192]",0.0,0.3333333333333333
+M7 Gradient orientation,correlation,00005.jpg,[274],236,"[236, 268, 257, 192, 115]",0.0,0.0
+M7 Gradient orientation,correlation,00006.jpg,[285],139,"[139, 114, 264, 138, 277]",0.0,0.0
+M7 Gradient orientation,correlation,00007.jpg,[258],73,"[73, 45, 271, 91, 258]",0.0,0.2
 M7 Gradient orientation,correlation,00008.jpg,[117],117,"[117, 278, 101, 18, 42]",1.0,1.0
 M7 Gradient orientation,correlation,00009.jpg,[203],203,"[203, 79, 125, 205, 86]",1.0,1.0
 M7 Gradient orientation,correlation,00010.jpg,[192],192,"[192, 235, 140, 0, 257]",1.0,1.0
-M7 Gradient orientation,correlation,00011.jpg,[22],94,"[94, 22, 239, 184, 194]",0.0,0.5
+M7 Gradient orientation,correlation,00011.jpg,[22],22,"[22, 94, 239, 184, 194]",1.0,1.0
 M7 Gradient orientation,correlation,00012.jpg,[113],101,"[101, 278, 18, 285, 160]",0.0,0.0
-M7 Gradient orientation,correlation,00013.jpg,[101],118,"[118, 170, 113, 270, 90]",0.0,0.0
+M7 Gradient orientation,correlation,00013.jpg,[101],118,"[118, 170, 113, 90, 270]",0.0,0.0
 M7 Gradient orientation,correlation,00014.jpg,[174],168,"[168, 225, 233, 248, 261]",0.0,0.0
-M7 Gradient orientation,correlation,00015.jpg,[155],283,"[283, 254, 163, 286, 240]",0.0,0.0
-M7 Gradient orientation,correlation,00016.jpg,[270],264,"[264, 138, 33, 222, 90]",0.0,0.0
-M7 Gradient orientation,correlation,00017.jpg,[47],141,"[141, 115, 268, 13, 236]",0.0,0.0
+M7 Gradient orientation,correlation,00015.jpg,[155],283,"[283, 254, 163, 240, 286]",0.0,0.0
+M7 Gradient orientation,correlation,00016.jpg,[270],264,"[264, 138, 33, 222, 277]",0.0,0.0
+M7 Gradient orientation,correlation,00017.jpg,[47],141,"[141, 268, 115, 13, 100]",0.0,0.0
 M7 Gradient orientation,correlation,00018.jpg,[286],55,"[55, 286, 240, 163, 190]",0.0,0.5
-M7 Gradient orientation,correlation,00019.jpg,[215],160,"[160, 29, 285, 145, 170]",0.0,0.0
-M7 Gradient orientation,correlation,00020.jpg,[262],262,"[262, 101, 270, 170, 67]",1.0,1.0
+M7 Gradient orientation,correlation,00019.jpg,[215],160,"[160, 29, 123, 285, 170]",0.0,0.0
+M7 Gradient orientation,correlation,00020.jpg,[262],262,"[262, 101, 270, 67, 170]",1.0,1.0
 M7 Gradient orientation,correlation,00021.jpg,[245],264,"[264, 56, 139, 91, 33]",0.0,0.0
-M7 Gradient orientation,correlation,00022.jpg,[257],13,"[13, 268, 257, 236, 192]",0.0,0.3333333333333333
+M7 Gradient orientation,correlation,00022.jpg,[257],268,"[268, 13, 257, 236, 192]",0.0,0.3333333333333333
 M7 Gradient orientation,correlation,00023.jpg,[182],44,"[44, 84, 147, 161, 70]",0.0,0.0
-M7 Gradient orientation,correlation,00024.jpg,[262],69,"[69, 259, 207, 58, 42]",0.0,0.0
+M7 Gradient orientation,correlation,00024.jpg,[262],69,"[69, 259, 207, 58, 11]",0.0,0.0
 M7 Gradient orientation,correlation,00025.jpg,[38],182,"[182, 141, 13, 268, 236]",0.0,0.0
-M7 Gradient orientation,correlation,00026.jpg,[238],92,"[92, 49, 266, 262, 212]",0.0,0.0
-M7 Gradient orientation,correlation,00027.jpg,[67],91,"[91, 40, 277, 45, 11]",0.0,0.0
-M7 Gradient orientation,correlation,00028.jpg,[86],86,"[86, 59, 164, 79, 240]",1.0,1.0
-M7 Gradient orientation,correlation,00029.jpg,[133],43,"[43, 218, 154, 116, 249]",0.0,0.0
+M7 Gradient orientation,correlation,00026.jpg,[238],92,"[92, 49, 266, 262, 170]",0.0,0.0
+M7 Gradient orientation,correlation,00027.jpg,[67],91,"[91, 40, 277, 11, 45]",0.0,0.0
+M7 Gradient orientation,correlation,00028.jpg,[86],86,"[86, 59, 164, 79, 49]",1.0,1.0
+M7 Gradient orientation,correlation,00029.jpg,[133],43,"[43, 218, 154, 116, 104]",0.0,0.0
 M7 Gradient orientation,jensen_shannon,00000.jpg,[120],141,"[141, 215, 32, 238, 229]",0.0,0.0
 M7 Gradient orientation,jensen_shannon,00001.jpg,[170],29,"[29, 170, 113, 160, 177]",0.0,0.5
-M7 Gradient orientation,jensen_shannon,00002.jpg,[277],277,"[277, 206, 270, 58, 45]",1.0,1.0
+M7 Gradient orientation,jensen_shannon,00002.jpg,[277],277,"[277, 206, 270, 58, 101]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00003.jpg,[227],72,"[72, 227, 54, 27, 120]",0.0,0.5
-M7 Gradient orientation,jensen_shannon,00004.jpg,[251],251,"[251, 236, 157, 233, 120]",1.0,1.0
-M7 Gradient orientation,jensen_shannon,00005.jpg,[274],46,"[46, 107, 130, 266, 247]",0.0,0.0
+M7 Gradient orientation,jensen_shannon,00004.jpg,[251],251,"[251, 157, 233, 236, 120]",1.0,1.0
+M7 Gradient orientation,jensen_shannon,00005.jpg,[274],46,"[46, 107, 130, 266, 39]",0.0,0.0
 M7 Gradient orientation,jensen_shannon,00006.jpg,[285],114,"[114, 285, 264, 277, 24]",0.0,0.5
 M7 Gradient orientation,jensen_shannon,00007.jpg,[258],258,"[258, 144, 116, 91, 163]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00008.jpg,[117],117,"[117, 278, 69, 11, 208]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00009.jpg,[203],203,"[203, 60, 86, 55, 271]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00010.jpg,[192],192,"[192, 257, 184, 268, 2]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00011.jpg,[22],22,"[22, 239, 174, 237, 167]",1.0,1.0
-M7 Gradient orientation,jensen_shannon,00012.jpg,[113],285,"[285, 160, 186, 101, 114]",0.0,0.0
-M7 Gradient orientation,jensen_shannon,00013.jpg,[101],270,"[270, 170, 75, 118, 285]",0.0,0.0
+M7 Gradient orientation,jensen_shannon,00012.jpg,[113],285,"[285, 160, 101, 186, 114]",0.0,0.0
+M7 Gradient orientation,jensen_shannon,00013.jpg,[101],270,"[270, 170, 75, 285, 118]",0.0,0.0
 M7 Gradient orientation,jensen_shannon,00014.jpg,[174],168,"[168, 174, 193, 248, 120]",0.0,0.5
-M7 Gradient orientation,jensen_shannon,00015.jpg,[155],155,"[155, 205, 110, 265, 228]",1.0,1.0
-M7 Gradient orientation,jensen_shannon,00016.jpg,[270],264,"[264, 283, 67, 277, 118]",0.0,0.0
-M7 Gradient orientation,jensen_shannon,00017.jpg,[47],257,"[257, 52, 77, 2, 268]",0.0,0.0
+M7 Gradient orientation,jensen_shannon,00015.jpg,[155],155,"[155, 205, 110, 81, 265]",1.0,1.0
+M7 Gradient orientation,jensen_shannon,00016.jpg,[270],264,"[264, 283, 277, 67, 24]",0.0,0.0
+M7 Gradient orientation,jensen_shannon,00017.jpg,[47],52,"[52, 257, 77, 2, 268]",0.0,0.0
 M7 Gradient orientation,jensen_shannon,00018.jpg,[286],286,"[286, 55, 138, 254, 271]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00019.jpg,[215],215,"[215, 170, 113, 29, 123]",1.0,1.0
-M7 Gradient orientation,jensen_shannon,00020.jpg,[262],262,"[262, 145, 40, 139, 85]",1.0,1.0
+M7 Gradient orientation,jensen_shannon,00020.jpg,[262],262,"[262, 145, 139, 40, 56]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00021.jpg,[245],245,"[245, 264, 183, 24, 100]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00022.jpg,[257],257,"[257, 192, 268, 77, 13]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00023.jpg,[182],182,"[182, 281, 70, 258, 44]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00024.jpg,[262],262,"[262, 40, 246, 145, 85]",1.0,1.0
 M7 Gradient orientation,jensen_shannon,00025.jpg,[38],77,"[77, 45, 13, 58, 52]",0.0,0.0
-M7 Gradient orientation,jensen_shannon,00026.jpg,[238],270,"[270, 189, 118, 170, 75]",0.0,0.0
-M7 Gradient orientation,jensen_shannon,00027.jpg,[67],52,"[52, 183, 67, 264, 77]",0.0,0.3333333333333333
+M7 Gradient orientation,jensen_shannon,00026.jpg,[238],270,"[270, 118, 170, 189, 77]",0.0,0.0
+M7 Gradient orientation,jensen_shannon,00027.jpg,[67],52,"[52, 183, 67, 264, 207]",0.0,0.3333333333333333
 M7 Gradient orientation,jensen_shannon,00028.jpg,[86],86,"[86, 203, 49, 244, 271]",1.0,1.0
-M7 Gradient orientation,jensen_shannon,00029.jpg,[133],154,"[154, 133, 43, 104, 275]",0.0,0.5
+M7 Gradient orientation,jensen_shannon,00029.jpg,[133],154,"[154, 133, 104, 43, 275]",0.0,0.5
 M7 Gradient orientation,emd,00000.jpg,[120],141,"[141, 70, 215, 229, 76]",0.0,0.0
-M7 Gradient orientation,emd,00001.jpg,[170],142,"[142, 90, 95, 206, 36]",0.0,0.0
+M7 Gradient orientation,emd,00001.jpg,[170],142,"[142, 90, 95, 36, 206]",0.0,0.0
 M7 Gradient orientation,emd,00002.jpg,[277],36,"[36, 118, 142, 285, 18]",0.0,0.0
 M7 Gradient orientation,emd,00003.jpg,[227],72,"[72, 54, 227, 246, 193]",0.0,0.3333333333333333
 M7 Gradient orientation,emd,00004.jpg,[251],57,"[57, 225, 223, 31, 256]",0.0,0.0
-M7 Gradient orientation,emd,00005.jpg,[274],46,"[46, 39, 107, 130, 140]",0.0,0.0
+M7 Gradient orientation,emd,00005.jpg,[274],46,"[46, 130, 107, 39, 140]",0.0,0.0
 M7 Gradient orientation,emd,00006.jpg,[285],114,"[114, 264, 277, 258, 45]",0.0,0.0
-M7 Gradient orientation,emd,00007.jpg,[258],258,"[258, 73, 150, 91, 254]",1.0,1.0
+M7 Gradient orientation,emd,00007.jpg,[258],258,"[258, 73, 254, 150, 91]",1.0,1.0
 M7 Gradient orientation,emd,00008.jpg,[117],117,"[117, 11, 258, 69, 114]",1.0,1.0
 M7 Gradient orientation,emd,00009.jpg,[203],203,"[203, 86, 55, 83, 15]",1.0,1.0
 M7 Gradient orientation,emd,00010.jpg,[192],0,"[0, 184, 192, 268, 210]",0.0,0.3333333333333333
 M7 Gradient orientation,emd,00011.jpg,[22],22,"[22, 239, 167, 234, 172]",1.0,1.0
-M7 Gradient orientation,emd,00012.jpg,[113],160,"[160, 285, 18, 170, 118]",0.0,0.0
-M7 Gradient orientation,emd,00013.jpg,[101],270,"[270, 75, 113, 208, 118]",0.0,0.0
-M7 Gradient orientation,emd,00014.jpg,[174],168,"[168, 174, 120, 54, 72]",0.0,0.5
+M7 Gradient orientation,emd,00012.jpg,[113],160,"[160, 285, 170, 118, 18]",0.0,0.0
+M7 Gradient orientation,emd,00013.jpg,[101],270,"[270, 113, 75, 118, 206]",0.0,0.0
+M7 Gradient orientation,emd,00014.jpg,[174],168,"[168, 120, 174, 237, 72]",0.0,0.3333333333333333
 M7 Gradient orientation,emd,00015.jpg,[155],265,"[265, 155, 126, 50, 106]",0.0,0.5
-M7 Gradient orientation,emd,00016.jpg,[270],45,"[45, 264, 277, 36, 222]",0.0,0.0
-M7 Gradient orientation,emd,00017.jpg,[47],2,"[2, 209, 178, 257, 52]",0.0,0.0
+M7 Gradient orientation,emd,00016.jpg,[270],264,"[264, 45, 277, 222, 36]",0.0,0.0
+M7 Gradient orientation,emd,00017.jpg,[47],2,"[2, 209, 178, 52, 257]",0.0,0.0
 M7 Gradient orientation,emd,00018.jpg,[286],55,"[55, 286, 15, 188, 203]",0.0,0.5
 M7 Gradient orientation,emd,00019.jpg,[215],249,"[249, 218, 170, 160, 285]",0.0,0.0
-M7 Gradient orientation,emd,00020.jpg,[262],262,"[262, 104, 40, 145, 56]",1.0,1.0
-M7 Gradient orientation,emd,00021.jpg,[245],24,"[24, 114, 277, 183, 58]",0.0,0.0
-M7 Gradient orientation,emd,00022.jpg,[257],257,"[257, 268, 47, 192, 209]",1.0,1.0
-M7 Gradient orientation,emd,00023.jpg,[182],182,"[182, 258, 11, 114, 104]",1.0,1.0
-M7 Gradient orientation,emd,00024.jpg,[262],132,"[132, 246, 104, 27, 275]",0.0,0.0
-M7 Gradient orientation,emd,00025.jpg,[38],77,"[77, 13, 189, 207, 259]",0.0,0.0
-M7 Gradient orientation,emd,00026.jpg,[238],208,"[208, 75, 49, 8, 189]",0.0,0.0
+M7 Gradient orientation,emd,00020.jpg,[262],262,"[262, 104, 40, 56, 145]",1.0,1.0
+M7 Gradient orientation,emd,00021.jpg,[245],24,"[24, 114, 277, 183, 264]",0.0,0.0
+M7 Gradient orientation,emd,00022.jpg,[257],257,"[257, 268, 192, 47, 13]",1.0,1.0
+M7 Gradient orientation,emd,00023.jpg,[182],258,"[258, 114, 11, 182, 117]",0.0,0.25
+M7 Gradient orientation,emd,00024.jpg,[262],132,"[132, 104, 246, 56, 27]",0.0,0.0
+M7 Gradient orientation,emd,00025.jpg,[38],77,"[77, 13, 207, 259, 52]",0.0,0.0
+M7 Gradient orientation,emd,00026.jpg,[238],208,"[208, 75, 189, 49, 8]",0.0,0.0
 M7 Gradient orientation,emd,00027.jpg,[67],183,"[183, 24, 58, 277, 264]",0.0,0.0
-M7 Gradient orientation,emd,00028.jpg,[86],86,"[86, 203, 164, 49, 55]",1.0,1.0
-M7 Gradient orientation,emd,00029.jpg,[133],116,"[116, 43, 154, 218, 84]",0.0,0.0
+M7 Gradient orientation,emd,00028.jpg,[86],86,"[86, 203, 49, 41, 164]",1.0,1.0
+M7 Gradient orientation,emd,00029.jpg,[133],116,"[116, 43, 154, 84, 218]",0.0,0.0
 M8 LBP,euclidean,00000.jpg,[120],120,"[120, 233, 174, 48, 186]",1.0,1.0
 M8 LBP,euclidean,00001.jpg,[170],260,"[260, 196, 123, 244, 113]",0.0,0.0
-M8 LBP,euclidean,00002.jpg,[277],269,"[269, 236, 229, 178, 38]",0.0,0.0
+M8 LBP,euclidean,00002.jpg,[277],269,"[269, 236, 178, 229, 38]",0.0,0.0
 M8 LBP,euclidean,00003.jpg,[227],227,"[227, 39, 48, 233, 239]",1.0,1.0
 M8 LBP,euclidean,00004.jpg,[251],184,"[184, 49, 89, 247, 173]",0.0,0.0
-M8 LBP,euclidean,00005.jpg,[274],263,"[263, 14, 22, 284, 4]",0.0,0.0
+M8 LBP,euclidean,00005.jpg,[274],263,"[263, 14, 284, 4, 22]",0.0,0.0
 M8 LBP,euclidean,00006.jpg,[285],229,"[229, 141, 178, 269, 38]",0.0,0.0
 M8 LBP,euclidean,00007.jpg,[258],159,"[159, 56, 2, 141, 44]",0.0,0.0
-M8 LBP,euclidean,00008.jpg,[117],45,"[45, 75, 38, 24, 204]",0.0,0.0
-M8 LBP,euclidean,00009.jpg,[203],211,"[211, 281, 280, 144, 97]",0.0,0.0
+M8 LBP,euclidean,00008.jpg,[117],45,"[45, 75, 24, 38, 204]",0.0,0.0
+M8 LBP,euclidean,00009.jpg,[203],211,"[211, 281, 280, 144, 246]",0.0,0.0
 M8 LBP,euclidean,00010.jpg,[192],192,"[192, 115, 13, 51, 215]",1.0,1.0
-M8 LBP,euclidean,00011.jpg,[22],145,"[145, 14, 157, 85, 73]",0.0,0.0
+M8 LBP,euclidean,00011.jpg,[22],14,"[14, 145, 157, 85, 73]",0.0,0.0
 M8 LBP,euclidean,00012.jpg,[113],278,"[278, 90, 43, 252, 9]",0.0,0.0
 M8 LBP,euclidean,00013.jpg,[101],229,"[229, 178, 269, 141, 236]",0.0,0.0
 M8 LBP,euclidean,00014.jpg,[174],255,"[255, 227, 142, 127, 22]",0.0,0.0
-M8 LBP,euclidean,00015.jpg,[155],139,"[139, 8, 17, 50, 223]",0.0,0.0
+M8 LBP,euclidean,00015.jpg,[155],139,"[139, 8, 50, 17, 171]",0.0,0.0
 M8 LBP,euclidean,00016.jpg,[270],269,"[269, 229, 141, 236, 75]",0.0,0.0
-M8 LBP,euclidean,00017.jpg,[47],2,"[2, 159, 56, 268, 141]",0.0,0.0
+M8 LBP,euclidean,00017.jpg,[47],2,"[2, 159, 56, 141, 268]",0.0,0.0
 M8 LBP,euclidean,00018.jpg,[286],116,"[116, 205, 132, 84, 31]",0.0,0.0
 M8 LBP,euclidean,00019.jpg,[215],215,"[215, 51, 57, 192, 69]",1.0,1.0
-M8 LBP,euclidean,00020.jpg,[262],49,"[49, 41, 89, 128, 173]",0.0,0.0
+M8 LBP,euclidean,00020.jpg,[262],49,"[49, 89, 41, 128, 173]",0.0,0.0
 M8 LBP,euclidean,00021.jpg,[245],2,"[2, 268, 209, 159, 245]",0.0,0.2
 M8 LBP,euclidean,00022.jpg,[257],236,"[236, 75, 47, 189, 257]",0.0,0.2
-M8 LBP,euclidean,00023.jpg,[182],269,"[269, 236, 229, 189, 75]",0.0,0.0
-M8 LBP,euclidean,00024.jpg,[262],75,"[75, 45, 49, 189, 24]",0.0,0.0
-M8 LBP,euclidean,00025.jpg,[38],229,"[229, 141, 56, 159, 269]",0.0,0.0
+M8 LBP,euclidean,00023.jpg,[182],269,"[269, 236, 189, 229, 75]",0.0,0.0
+M8 LBP,euclidean,00024.jpg,[262],75,"[75, 45, 189, 24, 49]",0.0,0.0
+M8 LBP,euclidean,00025.jpg,[38],229,"[229, 141, 159, 56, 2]",0.0,0.0
 M8 LBP,euclidean,00026.jpg,[238],268,"[268, 209, 175, 2, 44]",0.0,0.0
 M8 LBP,euclidean,00027.jpg,[67],268,"[268, 209, 2, 159, 44]",0.0,0.0
 M8 LBP,euclidean,00028.jpg,[86],139,"[139, 17, 171, 86, 33]",0.0,0.25
 M8 LBP,euclidean,00029.jpg,[133],133,"[133, 145, 76, 97, 157]",1.0,1.0
-M8 LBP,L1,00000.jpg,[120],120,"[120, 282, 233, 202, 174]",1.0,1.0
+M8 LBP,L1,00000.jpg,[120],120,"[120, 282, 233, 174, 202]",1.0,1.0
 M8 LBP,L1,00001.jpg,[170],123,"[123, 260, 196, 154, 244]",0.0,0.0
 M8 LBP,L1,00002.jpg,[277],229,"[229, 141, 269, 24, 208]",0.0,0.0
 M8 LBP,L1,00003.jpg,[227],227,"[227, 39, 248, 239, 233]",1.0,1.0
 M8 LBP,L1,00004.jpg,[251],49,"[49, 157, 184, 243, 97]",0.0,0.0
-M8 LBP,L1,00005.jpg,[274],14,"[14, 263, 22, 142, 284]",0.0,0.0
+M8 LBP,L1,00005.jpg,[274],14,"[14, 263, 142, 284, 22]",0.0,0.0
 M8 LBP,L1,00006.jpg,[285],229,"[229, 141, 269, 208, 159]",0.0,0.0
 M8 LBP,L1,00007.jpg,[258],2,"[2, 141, 159, 229, 56]",0.0,0.0
-M8 LBP,L1,00008.jpg,[117],208,"[208, 280, 49, 204, 281]",0.0,0.0
+M8 LBP,L1,00008.jpg,[117],208,"[208, 49, 280, 204, 45]",0.0,0.0
 M8 LBP,L1,00009.jpg,[203],211,"[211, 281, 208, 280, 49]",0.0,0.0
 M8 LBP,L1,00010.jpg,[192],192,"[192, 225, 115, 215, 51]",1.0,1.0
 M8 LBP,L1,00011.jpg,[22],145,"[145, 157, 14, 85, 97]",0.0,0.0
 M8 LBP,L1,00012.jpg,[113],259,"[259, 170, 278, 113, 70]",0.0,0.25
 M8 LBP,L1,00013.jpg,[101],24,"[24, 229, 269, 141, 75]",0.0,0.0
-M8 LBP,L1,00014.jpg,[174],227,"[227, 255, 127, 142, 235]",0.0,0.0
-M8 LBP,L1,00015.jpg,[155],139,"[139, 22, 4, 263, 8]",0.0,0.0
+M8 LBP,L1,00014.jpg,[174],255,"[255, 227, 127, 142, 235]",0.0,0.0
+M8 LBP,L1,00015.jpg,[155],139,"[139, 22, 4, 263, 50]",0.0,0.0
 M8 LBP,L1,00016.jpg,[270],269,"[269, 208, 24, 2, 204]",0.0,0.0
 M8 LBP,L1,00017.jpg,[47],2,"[2, 268, 229, 141, 159]",0.0,0.0
 M8 LBP,L1,00018.jpg,[286],116,"[116, 132, 135, 84, 63]",0.0,0.0
@@ -1942,27 +1942,27 @@ M8 LBP,L1,00019.jpg,[215],215,"[215, 57, 51, 69, 192]",1.0,1.0
 M8 LBP,L1,00020.jpg,[262],49,"[49, 97, 246, 145, 75]",0.0,0.0
 M8 LBP,L1,00021.jpg,[245],2,"[2, 268, 209, 159, 141]",0.0,0.0
 M8 LBP,L1,00022.jpg,[257],236,"[236, 189, 75, 279, 24]",0.0,0.0
-M8 LBP,L1,00023.jpg,[182],229,"[229, 141, 208, 269, 2]",0.0,0.0
+M8 LBP,L1,00023.jpg,[182],229,"[229, 141, 269, 208, 2]",0.0,0.0
 M8 LBP,L1,00024.jpg,[262],75,"[75, 49, 24, 45, 189]",0.0,0.0
-M8 LBP,L1,00025.jpg,[38],229,"[229, 141, 2, 159, 269]",0.0,0.0
-M8 LBP,L1,00026.jpg,[238],268,"[268, 209, 2, 159, 56]",0.0,0.0
+M8 LBP,L1,00025.jpg,[38],229,"[229, 141, 2, 159, 56]",0.0,0.0
+M8 LBP,L1,00026.jpg,[238],268,"[268, 209, 2, 159, 141]",0.0,0.0
 M8 LBP,L1,00027.jpg,[67],268,"[268, 2, 209, 141, 229]",0.0,0.0
 M8 LBP,L1,00028.jpg,[86],139,"[139, 226, 17, 19, 86]",0.0,0.2
-M8 LBP,L1,00029.jpg,[133],133,"[133, 145, 212, 281, 157]",1.0,1.0
+M8 LBP,L1,00029.jpg,[133],133,"[133, 212, 145, 281, 76]",1.0,1.0
 M8 LBP,chi2,00000.jpg,[120],120,"[120, 282, 233, 174, 39]",1.0,1.0
 M8 LBP,chi2,00001.jpg,[170],123,"[123, 260, 244, 154, 84]",0.0,0.0
-M8 LBP,chi2,00002.jpg,[277],229,"[229, 141, 2, 208, 75]",0.0,0.0
+M8 LBP,chi2,00002.jpg,[277],229,"[229, 141, 2, 75, 208]",0.0,0.0
 M8 LBP,chi2,00003.jpg,[227],227,"[227, 39, 105, 239, 233]",1.0,1.0
-M8 LBP,chi2,00004.jpg,[251],49,"[49, 243, 157, 75, 97]",0.0,0.0
-M8 LBP,chi2,00005.jpg,[274],14,"[14, 142, 263, 139, 97]",0.0,0.0
-M8 LBP,chi2,00006.jpg,[285],229,"[229, 141, 208, 56, 159]",0.0,0.0
-M8 LBP,chi2,00007.jpg,[258],141,"[141, 229, 159, 2, 56]",0.0,0.0
+M8 LBP,chi2,00004.jpg,[251],49,"[49, 157, 243, 75, 145]",0.0,0.0
+M8 LBP,chi2,00005.jpg,[274],14,"[14, 263, 142, 139, 4]",0.0,0.0
+M8 LBP,chi2,00006.jpg,[285],229,"[229, 141, 208, 159, 56]",0.0,0.0
+M8 LBP,chi2,00007.jpg,[258],141,"[141, 229, 2, 159, 56]",0.0,0.0
 M8 LBP,chi2,00008.jpg,[117],208,"[208, 49, 204, 280, 211]",0.0,0.0
 M8 LBP,chi2,00009.jpg,[203],281,"[281, 211, 208, 49, 280]",0.0,0.0
 M8 LBP,chi2,00010.jpg,[192],192,"[192, 225, 215, 51, 57]",1.0,1.0
 M8 LBP,chi2,00011.jpg,[22],145,"[145, 157, 14, 85, 97]",0.0,0.0
 M8 LBP,chi2,00012.jpg,[113],259,"[259, 170, 70, 113, 278]",0.0,0.25
-M8 LBP,chi2,00013.jpg,[101],24,"[24, 229, 75, 141, 2]",0.0,0.0
+M8 LBP,chi2,00013.jpg,[101],24,"[24, 229, 141, 75, 2]",0.0,0.0
 M8 LBP,chi2,00014.jpg,[174],227,"[227, 127, 255, 105, 235]",0.0,0.0
 M8 LBP,chi2,00015.jpg,[155],139,"[139, 4, 22, 263, 8]",0.0,0.0
 M8 LBP,chi2,00016.jpg,[270],208,"[208, 269, 2, 204, 24]",0.0,0.0
@@ -1971,30 +1971,30 @@ M8 LBP,chi2,00018.jpg,[286],116,"[116, 84, 135, 63, 31]",0.0,0.0
 M8 LBP,chi2,00019.jpg,[215],215,"[215, 51, 57, 69, 259]",1.0,1.0
 M8 LBP,chi2,00020.jpg,[262],49,"[49, 97, 246, 75, 212]",0.0,0.0
 M8 LBP,chi2,00021.jpg,[245],2,"[2, 268, 209, 141, 229]",0.0,0.0
-M8 LBP,chi2,00022.jpg,[257],75,"[75, 279, 49, 236, 189]",0.0,0.0
+M8 LBP,chi2,00022.jpg,[257],75,"[75, 279, 49, 236, 24]",0.0,0.0
 M8 LBP,chi2,00023.jpg,[182],208,"[208, 229, 141, 2, 49]",0.0,0.0
 M8 LBP,chi2,00024.jpg,[262],75,"[75, 49, 24, 45, 189]",0.0,0.0
-M8 LBP,chi2,00025.jpg,[38],229,"[229, 2, 141, 208, 159]",0.0,0.0
+M8 LBP,chi2,00025.jpg,[38],229,"[229, 2, 141, 159, 208]",0.0,0.0
 M8 LBP,chi2,00026.jpg,[238],268,"[268, 209, 2, 159, 141]",0.0,0.0
 M8 LBP,chi2,00027.jpg,[67],2,"[2, 268, 141, 229, 209]",0.0,0.0
-M8 LBP,chi2,00028.jpg,[86],139,"[139, 226, 86, 284, 19]",0.0,0.3333333333333333
-M8 LBP,chi2,00029.jpg,[133],133,"[133, 212, 281, 145, 76]",1.0,1.0
-M8 LBP,intersection,00000.jpg,[120],120,"[120, 282, 233, 202, 174]",1.0,1.0
+M8 LBP,chi2,00028.jpg,[86],139,"[139, 226, 86, 17, 19]",0.0,0.3333333333333333
+M8 LBP,chi2,00029.jpg,[133],133,"[133, 212, 145, 281, 76]",1.0,1.0
+M8 LBP,intersection,00000.jpg,[120],120,"[120, 282, 233, 174, 202]",1.0,1.0
 M8 LBP,intersection,00001.jpg,[170],123,"[123, 260, 196, 154, 244]",0.0,0.0
 M8 LBP,intersection,00002.jpg,[277],229,"[229, 141, 269, 24, 208]",0.0,0.0
 M8 LBP,intersection,00003.jpg,[227],227,"[227, 39, 248, 239, 233]",1.0,1.0
 M8 LBP,intersection,00004.jpg,[251],49,"[49, 157, 184, 243, 97]",0.0,0.0
-M8 LBP,intersection,00005.jpg,[274],14,"[14, 263, 22, 142, 284]",0.0,0.0
+M8 LBP,intersection,00005.jpg,[274],14,"[14, 263, 142, 284, 22]",0.0,0.0
 M8 LBP,intersection,00006.jpg,[285],229,"[229, 141, 269, 208, 159]",0.0,0.0
 M8 LBP,intersection,00007.jpg,[258],2,"[2, 141, 159, 229, 56]",0.0,0.0
-M8 LBP,intersection,00008.jpg,[117],208,"[208, 280, 49, 204, 281]",0.0,0.0
+M8 LBP,intersection,00008.jpg,[117],208,"[208, 49, 280, 204, 45]",0.0,0.0
 M8 LBP,intersection,00009.jpg,[203],211,"[211, 281, 208, 280, 49]",0.0,0.0
 M8 LBP,intersection,00010.jpg,[192],192,"[192, 225, 115, 215, 51]",1.0,1.0
 M8 LBP,intersection,00011.jpg,[22],145,"[145, 157, 14, 85, 97]",0.0,0.0
 M8 LBP,intersection,00012.jpg,[113],259,"[259, 170, 278, 113, 70]",0.0,0.25
 M8 LBP,intersection,00013.jpg,[101],24,"[24, 229, 269, 141, 75]",0.0,0.0
-M8 LBP,intersection,00014.jpg,[174],227,"[227, 255, 127, 142, 235]",0.0,0.0
-M8 LBP,intersection,00015.jpg,[155],139,"[139, 22, 4, 263, 8]",0.0,0.0
+M8 LBP,intersection,00014.jpg,[174],255,"[255, 227, 127, 142, 235]",0.0,0.0
+M8 LBP,intersection,00015.jpg,[155],139,"[139, 22, 4, 263, 50]",0.0,0.0
 M8 LBP,intersection,00016.jpg,[270],269,"[269, 208, 24, 2, 204]",0.0,0.0
 M8 LBP,intersection,00017.jpg,[47],2,"[2, 268, 229, 141, 159]",0.0,0.0
 M8 LBP,intersection,00018.jpg,[286],116,"[116, 132, 135, 84, 63]",0.0,0.0
@@ -2002,27 +2002,27 @@ M8 LBP,intersection,00019.jpg,[215],215,"[215, 57, 51, 69, 192]",1.0,1.0
 M8 LBP,intersection,00020.jpg,[262],49,"[49, 97, 246, 145, 75]",0.0,0.0
 M8 LBP,intersection,00021.jpg,[245],2,"[2, 268, 209, 159, 141]",0.0,0.0
 M8 LBP,intersection,00022.jpg,[257],236,"[236, 189, 75, 279, 24]",0.0,0.0
-M8 LBP,intersection,00023.jpg,[182],229,"[229, 141, 208, 269, 2]",0.0,0.0
+M8 LBP,intersection,00023.jpg,[182],229,"[229, 141, 269, 208, 2]",0.0,0.0
 M8 LBP,intersection,00024.jpg,[262],75,"[75, 49, 24, 45, 189]",0.0,0.0
-M8 LBP,intersection,00025.jpg,[38],229,"[229, 141, 2, 159, 269]",0.0,0.0
-M8 LBP,intersection,00026.jpg,[238],268,"[268, 209, 2, 159, 56]",0.0,0.0
+M8 LBP,intersection,00025.jpg,[38],229,"[229, 141, 2, 159, 56]",0.0,0.0
+M8 LBP,intersection,00026.jpg,[238],268,"[268, 209, 2, 159, 141]",0.0,0.0
 M8 LBP,intersection,00027.jpg,[67],268,"[268, 2, 209, 141, 229]",0.0,0.0
 M8 LBP,intersection,00028.jpg,[86],139,"[139, 226, 17, 19, 86]",0.0,0.2
-M8 LBP,intersection,00029.jpg,[133],133,"[133, 145, 212, 281, 157]",1.0,1.0
+M8 LBP,intersection,00029.jpg,[133],133,"[133, 212, 145, 281, 76]",1.0,1.0
 M8 LBP,hellinger,00000.jpg,[120],120,"[120, 282, 233, 174, 39]",1.0,1.0
 M8 LBP,hellinger,00001.jpg,[170],123,"[123, 260, 244, 154, 84]",0.0,0.0
-M8 LBP,hellinger,00002.jpg,[277],229,"[229, 141, 2, 208, 75]",0.0,0.0
+M8 LBP,hellinger,00002.jpg,[277],229,"[229, 141, 2, 75, 208]",0.0,0.0
 M8 LBP,hellinger,00003.jpg,[227],227,"[227, 39, 105, 239, 233]",1.0,1.0
-M8 LBP,hellinger,00004.jpg,[251],49,"[49, 243, 157, 75, 97]",0.0,0.0
-M8 LBP,hellinger,00005.jpg,[274],14,"[14, 142, 263, 97, 139]",0.0,0.0
-M8 LBP,hellinger,00006.jpg,[285],229,"[229, 141, 208, 2, 56]",0.0,0.0
-M8 LBP,hellinger,00007.jpg,[258],141,"[141, 229, 159, 2, 56]",0.0,0.0
+M8 LBP,hellinger,00004.jpg,[251],49,"[49, 157, 243, 75, 145]",0.0,0.0
+M8 LBP,hellinger,00005.jpg,[274],14,"[14, 263, 142, 97, 4]",0.0,0.0
+M8 LBP,hellinger,00006.jpg,[285],229,"[229, 141, 208, 2, 159]",0.0,0.0
+M8 LBP,hellinger,00007.jpg,[258],141,"[141, 229, 2, 159, 56]",0.0,0.0
 M8 LBP,hellinger,00008.jpg,[117],208,"[208, 49, 204, 280, 211]",0.0,0.0
 M8 LBP,hellinger,00009.jpg,[203],281,"[281, 211, 208, 49, 280]",0.0,0.0
 M8 LBP,hellinger,00010.jpg,[192],192,"[192, 225, 215, 51, 57]",1.0,1.0
 M8 LBP,hellinger,00011.jpg,[22],145,"[145, 157, 14, 85, 97]",0.0,0.0
 M8 LBP,hellinger,00012.jpg,[113],259,"[259, 170, 70, 113, 278]",0.0,0.25
-M8 LBP,hellinger,00013.jpg,[101],24,"[24, 229, 75, 2, 141]",0.0,0.0
+M8 LBP,hellinger,00013.jpg,[101],24,"[24, 229, 2, 75, 141]",0.0,0.0
 M8 LBP,hellinger,00014.jpg,[174],227,"[227, 127, 255, 105, 235]",0.0,0.0
 M8 LBP,hellinger,00015.jpg,[155],139,"[139, 4, 22, 263, 8]",0.0,0.0
 M8 LBP,hellinger,00016.jpg,[270],208,"[208, 2, 269, 204, 268]",0.0,0.0
@@ -2031,88 +2031,88 @@ M8 LBP,hellinger,00018.jpg,[286],116,"[116, 84, 135, 63, 31]",0.0,0.0
 M8 LBP,hellinger,00019.jpg,[215],215,"[215, 51, 57, 69, 259]",1.0,1.0
 M8 LBP,hellinger,00020.jpg,[262],49,"[49, 97, 246, 75, 212]",0.0,0.0
 M8 LBP,hellinger,00021.jpg,[245],2,"[2, 268, 209, 141, 229]",0.0,0.0
-M8 LBP,hellinger,00022.jpg,[257],75,"[75, 279, 49, 236, 189]",0.0,0.0
+M8 LBP,hellinger,00022.jpg,[257],75,"[75, 49, 279, 236, 229]",0.0,0.0
 M8 LBP,hellinger,00023.jpg,[182],208,"[208, 229, 141, 2, 49]",0.0,0.0
 M8 LBP,hellinger,00024.jpg,[262],75,"[75, 49, 24, 45, 189]",0.0,0.0
 M8 LBP,hellinger,00025.jpg,[38],229,"[229, 2, 141, 208, 159]",0.0,0.0
 M8 LBP,hellinger,00026.jpg,[238],268,"[268, 209, 2, 159, 141]",0.0,0.0
 M8 LBP,hellinger,00027.jpg,[67],2,"[2, 268, 141, 229, 209]",0.0,0.0
-M8 LBP,hellinger,00028.jpg,[86],139,"[139, 226, 86, 284, 19]",0.0,0.3333333333333333
+M8 LBP,hellinger,00028.jpg,[86],139,"[139, 226, 86, 17, 19]",0.0,0.3333333333333333
 M8 LBP,hellinger,00029.jpg,[133],133,"[133, 212, 281, 145, 76]",1.0,1.0
 M8 LBP,cosine,00000.jpg,[120],120,"[120, 233, 282, 39, 174]",1.0,1.0
 M8 LBP,cosine,00001.jpg,[170],123,"[123, 260, 196, 244, 113]",0.0,0.0
-M8 LBP,cosine,00002.jpg,[277],229,"[229, 38, 269, 45, 141]",0.0,0.0
+M8 LBP,cosine,00002.jpg,[277],229,"[229, 38, 141, 269, 45]",0.0,0.0
 M8 LBP,cosine,00003.jpg,[227],227,"[227, 39, 48, 174, 233]",1.0,1.0
 M8 LBP,cosine,00004.jpg,[251],49,"[49, 184, 89, 279, 24]",0.0,0.0
-M8 LBP,cosine,00005.jpg,[274],14,"[14, 263, 22, 284, 4]",0.0,0.0
-M8 LBP,cosine,00006.jpg,[285],229,"[229, 141, 38, 56, 45]",0.0,0.0
-M8 LBP,cosine,00007.jpg,[258],141,"[141, 159, 56, 229, 2]",0.0,0.0
-M8 LBP,cosine,00008.jpg,[117],45,"[45, 172, 75, 38, 24]",0.0,0.0
+M8 LBP,cosine,00005.jpg,[274],263,"[263, 14, 284, 4, 22]",0.0,0.0
+M8 LBP,cosine,00006.jpg,[285],229,"[229, 141, 38, 159, 45]",0.0,0.0
+M8 LBP,cosine,00007.jpg,[258],141,"[141, 159, 229, 56, 2]",0.0,0.0
+M8 LBP,cosine,00008.jpg,[117],45,"[45, 75, 24, 172, 38]",0.0,0.0
 M8 LBP,cosine,00009.jpg,[203],211,"[211, 281, 280, 208, 144]",0.0,0.0
 M8 LBP,cosine,00010.jpg,[192],192,"[192, 115, 13, 215, 51]",1.0,1.0
 M8 LBP,cosine,00011.jpg,[22],157,"[157, 14, 145, 85, 73]",0.0,0.0
 M8 LBP,cosine,00012.jpg,[113],278,"[278, 170, 90, 43, 252]",0.0,0.0
-M8 LBP,cosine,00013.jpg,[101],229,"[229, 141, 178, 45, 38]",0.0,0.0
+M8 LBP,cosine,00013.jpg,[101],229,"[229, 141, 178, 38, 45]",0.0,0.0
 M8 LBP,cosine,00014.jpg,[174],255,"[255, 227, 127, 142, 275]",0.0,0.0
-M8 LBP,cosine,00015.jpg,[155],139,"[139, 8, 22, 50, 223]",0.0,0.0
+M8 LBP,cosine,00015.jpg,[155],139,"[139, 8, 22, 50, 17]",0.0,0.0
 M8 LBP,cosine,00016.jpg,[270],24,"[24, 75, 269, 229, 45]",0.0,0.0
-M8 LBP,cosine,00017.jpg,[47],2,"[2, 159, 229, 141, 268]",0.0,0.0
+M8 LBP,cosine,00017.jpg,[47],2,"[2, 229, 159, 141, 268]",0.0,0.0
 M8 LBP,cosine,00018.jpg,[286],116,"[116, 205, 31, 63, 132]",0.0,0.0
 M8 LBP,cosine,00019.jpg,[215],215,"[215, 57, 51, 192, 69]",1.0,1.0
-M8 LBP,cosine,00020.jpg,[262],49,"[49, 97, 41, 128, 89]",0.0,0.0
+M8 LBP,cosine,00020.jpg,[262],49,"[49, 128, 41, 89, 97]",0.0,0.0
 M8 LBP,cosine,00021.jpg,[245],2,"[2, 268, 209, 245, 159]",0.0,0.25
 M8 LBP,cosine,00022.jpg,[257],236,"[236, 75, 189, 47, 45]",0.0,0.0
 M8 LBP,cosine,00023.jpg,[182],189,"[189, 269, 236, 75, 182]",0.0,0.2
-M8 LBP,cosine,00024.jpg,[262],75,"[75, 49, 45, 189, 24]",0.0,0.0
+M8 LBP,cosine,00024.jpg,[262],75,"[75, 45, 49, 189, 24]",0.0,0.0
 M8 LBP,cosine,00025.jpg,[38],229,"[229, 141, 2, 159, 56]",0.0,0.0
-M8 LBP,cosine,00026.jpg,[238],1,"[1, 268, 209, 159, 56]",0.0,0.0
-M8 LBP,cosine,00027.jpg,[67],159,"[159, 141, 268, 2, 209]",0.0,0.0
+M8 LBP,cosine,00026.jpg,[238],268,"[268, 1, 209, 56, 159]",0.0,0.0
+M8 LBP,cosine,00027.jpg,[67],159,"[159, 141, 268, 2, 229]",0.0,0.0
 M8 LBP,cosine,00028.jpg,[86],139,"[139, 17, 86, 33, 171]",0.0,0.3333333333333333
 M8 LBP,cosine,00029.jpg,[133],133,"[133, 145, 76, 97, 281]",1.0,1.0
 M8 LBP,correlation,00000.jpg,[120],120,"[120, 282, 39, 233, 48]",1.0,1.0
 M8 LBP,correlation,00001.jpg,[170],123,"[123, 260, 196, 244, 113]",0.0,0.0
-M8 LBP,correlation,00002.jpg,[277],229,"[229, 45, 38, 141, 269]",0.0,0.0
+M8 LBP,correlation,00002.jpg,[277],229,"[229, 141, 38, 45, 269]",0.0,0.0
 M8 LBP,correlation,00003.jpg,[227],227,"[227, 39, 48, 174, 233]",1.0,1.0
-M8 LBP,correlation,00004.jpg,[251],49,"[49, 184, 89, 24, 75]",0.0,0.0
-M8 LBP,correlation,00005.jpg,[274],14,"[14, 263, 22, 284, 4]",0.0,0.0
-M8 LBP,correlation,00006.jpg,[285],229,"[229, 141, 38, 45, 56]",0.0,0.0
-M8 LBP,correlation,00007.jpg,[258],141,"[141, 159, 56, 229, 268]",0.0,0.0
-M8 LBP,correlation,00008.jpg,[117],45,"[45, 172, 75, 38, 24]",0.0,0.0
+M8 LBP,correlation,00004.jpg,[251],49,"[49, 184, 89, 75, 24]",0.0,0.0
+M8 LBP,correlation,00005.jpg,[274],263,"[263, 14, 284, 4, 22]",0.0,0.0
+M8 LBP,correlation,00006.jpg,[285],229,"[229, 141, 38, 45, 159]",0.0,0.0
+M8 LBP,correlation,00007.jpg,[258],141,"[141, 229, 159, 56, 2]",0.0,0.0
+M8 LBP,correlation,00008.jpg,[117],45,"[45, 172, 24, 75, 38]",0.0,0.0
 M8 LBP,correlation,00009.jpg,[203],211,"[211, 281, 280, 208, 144]",0.0,0.0
 M8 LBP,correlation,00010.jpg,[192],192,"[192, 115, 13, 275, 215]",1.0,1.0
 M8 LBP,correlation,00011.jpg,[22],157,"[157, 14, 145, 85, 73]",0.0,0.0
 M8 LBP,correlation,00012.jpg,[113],278,"[278, 170, 90, 43, 252]",0.0,0.0
-M8 LBP,correlation,00013.jpg,[101],229,"[229, 45, 141, 38, 178]",0.0,0.0
-M8 LBP,correlation,00014.jpg,[174],255,"[255, 227, 127, 142, 138]",0.0,0.0
+M8 LBP,correlation,00013.jpg,[101],229,"[229, 141, 45, 38, 178]",0.0,0.0
+M8 LBP,correlation,00014.jpg,[174],255,"[255, 227, 127, 142, 275]",0.0,0.0
 M8 LBP,correlation,00015.jpg,[155],139,"[139, 8, 22, 50, 263]",0.0,0.0
-M8 LBP,correlation,00016.jpg,[270],24,"[24, 75, 269, 45, 229]",0.0,0.0
+M8 LBP,correlation,00016.jpg,[270],24,"[24, 75, 269, 45, 204]",0.0,0.0
 M8 LBP,correlation,00017.jpg,[47],2,"[2, 229, 159, 141, 268]",0.0,0.0
 M8 LBP,correlation,00018.jpg,[286],116,"[116, 205, 31, 63, 132]",0.0,0.0
 M8 LBP,correlation,00019.jpg,[215],215,"[215, 57, 51, 69, 192]",1.0,1.0
-M8 LBP,correlation,00020.jpg,[262],49,"[49, 75, 97, 41, 128]",0.0,0.0
+M8 LBP,correlation,00020.jpg,[262],49,"[49, 75, 97, 128, 41]",0.0,0.0
 M8 LBP,correlation,00021.jpg,[245],2,"[2, 268, 209, 245, 159]",0.0,0.25
 M8 LBP,correlation,00022.jpg,[257],236,"[236, 75, 189, 47, 45]",0.0,0.0
 M8 LBP,correlation,00023.jpg,[182],189,"[189, 269, 236, 75, 182]",0.0,0.2
-M8 LBP,correlation,00024.jpg,[262],75,"[75, 49, 45, 189, 24]",0.0,0.0
+M8 LBP,correlation,00024.jpg,[262],75,"[75, 45, 49, 189, 24]",0.0,0.0
 M8 LBP,correlation,00025.jpg,[38],229,"[229, 141, 2, 159, 56]",0.0,0.0
 M8 LBP,correlation,00026.jpg,[238],268,"[268, 1, 209, 56, 159]",0.0,0.0
-M8 LBP,correlation,00027.jpg,[67],141,"[141, 159, 268, 2, 229]",0.0,0.0
+M8 LBP,correlation,00027.jpg,[67],141,"[141, 159, 2, 268, 229]",0.0,0.0
 M8 LBP,correlation,00028.jpg,[86],139,"[139, 17, 86, 33, 226]",0.0,0.3333333333333333
 M8 LBP,correlation,00029.jpg,[133],133,"[133, 145, 76, 97, 281]",1.0,1.0
 M8 LBP,jensen_shannon,00000.jpg,[120],120,"[120, 282, 233, 174, 39]",1.0,1.0
 M8 LBP,jensen_shannon,00001.jpg,[170],123,"[123, 260, 244, 154, 84]",0.0,0.0
-M8 LBP,jensen_shannon,00002.jpg,[277],229,"[229, 141, 2, 208, 75]",0.0,0.0
+M8 LBP,jensen_shannon,00002.jpg,[277],229,"[229, 141, 2, 75, 208]",0.0,0.0
 M8 LBP,jensen_shannon,00003.jpg,[227],227,"[227, 39, 105, 239, 233]",1.0,1.0
-M8 LBP,jensen_shannon,00004.jpg,[251],49,"[49, 243, 157, 75, 97]",0.0,0.0
-M8 LBP,jensen_shannon,00005.jpg,[274],14,"[14, 142, 263, 97, 139]",0.0,0.0
-M8 LBP,jensen_shannon,00006.jpg,[285],229,"[229, 141, 208, 56, 2]",0.0,0.0
-M8 LBP,jensen_shannon,00007.jpg,[258],141,"[141, 229, 159, 2, 56]",0.0,0.0
+M8 LBP,jensen_shannon,00004.jpg,[251],49,"[49, 157, 243, 75, 145]",0.0,0.0
+M8 LBP,jensen_shannon,00005.jpg,[274],14,"[14, 263, 142, 139, 4]",0.0,0.0
+M8 LBP,jensen_shannon,00006.jpg,[285],229,"[229, 141, 208, 2, 159]",0.0,0.0
+M8 LBP,jensen_shannon,00007.jpg,[258],141,"[141, 229, 2, 159, 56]",0.0,0.0
 M8 LBP,jensen_shannon,00008.jpg,[117],208,"[208, 49, 204, 280, 211]",0.0,0.0
 M8 LBP,jensen_shannon,00009.jpg,[203],281,"[281, 211, 208, 49, 280]",0.0,0.0
 M8 LBP,jensen_shannon,00010.jpg,[192],192,"[192, 225, 215, 51, 57]",1.0,1.0
 M8 LBP,jensen_shannon,00011.jpg,[22],145,"[145, 157, 14, 85, 97]",0.0,0.0
 M8 LBP,jensen_shannon,00012.jpg,[113],259,"[259, 170, 70, 113, 278]",0.0,0.25
-M8 LBP,jensen_shannon,00013.jpg,[101],24,"[24, 229, 75, 2, 141]",0.0,0.0
+M8 LBP,jensen_shannon,00013.jpg,[101],24,"[24, 229, 75, 141, 2]",0.0,0.0
 M8 LBP,jensen_shannon,00014.jpg,[174],227,"[227, 127, 255, 105, 235]",0.0,0.0
 M8 LBP,jensen_shannon,00015.jpg,[155],139,"[139, 4, 22, 263, 8]",0.0,0.0
 M8 LBP,jensen_shannon,00016.jpg,[270],208,"[208, 2, 269, 204, 24]",0.0,0.0
@@ -2121,41 +2121,41 @@ M8 LBP,jensen_shannon,00018.jpg,[286],116,"[116, 84, 135, 63, 31]",0.0,0.0
 M8 LBP,jensen_shannon,00019.jpg,[215],215,"[215, 51, 57, 69, 259]",1.0,1.0
 M8 LBP,jensen_shannon,00020.jpg,[262],49,"[49, 97, 246, 75, 212]",0.0,0.0
 M8 LBP,jensen_shannon,00021.jpg,[245],2,"[2, 268, 209, 141, 229]",0.0,0.0
-M8 LBP,jensen_shannon,00022.jpg,[257],75,"[75, 279, 49, 236, 189]",0.0,0.0
+M8 LBP,jensen_shannon,00022.jpg,[257],75,"[75, 279, 49, 236, 229]",0.0,0.0
 M8 LBP,jensen_shannon,00023.jpg,[182],208,"[208, 229, 141, 2, 49]",0.0,0.0
 M8 LBP,jensen_shannon,00024.jpg,[262],75,"[75, 49, 24, 45, 189]",0.0,0.0
 M8 LBP,jensen_shannon,00025.jpg,[38],229,"[229, 2, 141, 208, 159]",0.0,0.0
 M8 LBP,jensen_shannon,00026.jpg,[238],268,"[268, 209, 2, 159, 141]",0.0,0.0
 M8 LBP,jensen_shannon,00027.jpg,[67],2,"[2, 268, 141, 229, 209]",0.0,0.0
-M8 LBP,jensen_shannon,00028.jpg,[86],139,"[139, 226, 86, 284, 19]",0.0,0.3333333333333333
+M8 LBP,jensen_shannon,00028.jpg,[86],139,"[139, 226, 86, 17, 19]",0.0,0.3333333333333333
 M8 LBP,jensen_shannon,00029.jpg,[133],133,"[133, 212, 281, 145, 76]",1.0,1.0
 M8 LBP,emd,00000.jpg,[120],233,"[233, 202, 107, 199, 282]",0.0,0.0
 M8 LBP,emd,00001.jpg,[170],126,"[126, 123, 31, 260, 276]",0.0,0.0
-M8 LBP,emd,00002.jpg,[277],45,"[45, 207, 118, 229, 75]",0.0,0.0
+M8 LBP,emd,00002.jpg,[277],45,"[45, 118, 207, 229, 75]",0.0,0.0
 M8 LBP,emd,00003.jpg,[227],12,"[12, 3, 225, 48, 39]",0.0,0.0
 M8 LBP,emd,00004.jpg,[251],279,"[279, 173, 210, 41, 246]",0.0,0.0
-M8 LBP,emd,00005.jpg,[274],8,"[8, 73, 50, 263, 272]",0.0,0.0
+M8 LBP,emd,00005.jpg,[274],73,"[73, 8, 50, 263, 272]",0.0,0.0
 M8 LBP,emd,00006.jpg,[285],159,"[159, 56, 52, 236, 178]",0.0,0.0
-M8 LBP,emd,00007.jpg,[258],2,"[2, 269, 175, 245, 36]",0.0,0.0
-M8 LBP,emd,00008.jpg,[117],208,"[208, 270, 30, 38, 49]",0.0,0.0
-M8 LBP,emd,00009.jpg,[203],280,"[280, 177, 188, 211, 285]",0.0,0.0
+M8 LBP,emd,00007.jpg,[258],2,"[2, 269, 175, 159, 245]",0.0,0.0
+M8 LBP,emd,00008.jpg,[117],208,"[208, 270, 30, 49, 38]",0.0,0.0
+M8 LBP,emd,00009.jpg,[203],280,"[280, 188, 177, 211, 20]",0.0,0.0
 M8 LBP,emd,00010.jpg,[192],13,"[13, 115, 83, 235, 282]",0.0,0.0
 M8 LBP,emd,00011.jpg,[22],246,"[246, 22, 14, 272, 279]",0.0,0.5
-M8 LBP,emd,00012.jpg,[113],278,"[278, 9, 261, 142, 59]",0.0,0.0
-M8 LBP,emd,00013.jpg,[101],75,"[75, 24, 207, 45, 258]",0.0,0.0
-M8 LBP,emd,00014.jpg,[174],235,"[235, 255, 261, 50, 186]",0.0,0.0
-M8 LBP,emd,00015.jpg,[155],277,"[277, 128, 22, 139, 284]",0.0,0.0
+M8 LBP,emd,00012.jpg,[113],278,"[278, 261, 9, 142, 59]",0.0,0.0
+M8 LBP,emd,00013.jpg,[101],75,"[75, 24, 45, 207, 118]",0.0,0.0
+M8 LBP,emd,00014.jpg,[174],235,"[235, 255, 261, 186, 50]",0.0,0.0
+M8 LBP,emd,00015.jpg,[155],277,"[277, 22, 128, 284, 139]",0.0,0.0
 M8 LBP,emd,00016.jpg,[270],236,"[236, 178, 269, 36, 52]",0.0,0.0
-M8 LBP,emd,00017.jpg,[47],2,"[2, 269, 175, 236, 245]",0.0,0.0
+M8 LBP,emd,00017.jpg,[47],2,"[2, 269, 175, 236, 178]",0.0,0.0
 M8 LBP,emd,00018.jpg,[286],113,"[113, 123, 276, 260, 64]",0.0,0.0
 M8 LBP,emd,00019.jpg,[215],57,"[57, 215, 58, 69, 259]",0.0,0.5
-M8 LBP,emd,00020.jpg,[262],172,"[172, 184, 89, 247, 280]",0.0,0.0
-M8 LBP,emd,00021.jpg,[245],2,"[2, 269, 175, 236, 268]",0.0,0.0
-M8 LBP,emd,00022.jpg,[257],118,"[118, 47, 207, 75, 134]",0.0,0.0
-M8 LBP,emd,00023.jpg,[182],159,"[159, 56, 245, 36, 141]",0.0,0.0
+M8 LBP,emd,00020.jpg,[262],172,"[172, 184, 89, 20, 247]",0.0,0.0
+M8 LBP,emd,00021.jpg,[245],2,"[2, 269, 175, 268, 236]",0.0,0.0
+M8 LBP,emd,00022.jpg,[257],118,"[118, 47, 207, 134, 75]",0.0,0.0
+M8 LBP,emd,00023.jpg,[182],159,"[159, 56, 245, 36, 236]",0.0,0.0
 M8 LBP,emd,00024.jpg,[262],49,"[49, 100, 15, 47, 45]",0.0,0.0
-M8 LBP,emd,00025.jpg,[38],36,"[36, 159, 236, 178, 56]",0.0,0.0
+M8 LBP,emd,00025.jpg,[38],159,"[159, 36, 236, 56, 175]",0.0,0.0
 M8 LBP,emd,00026.jpg,[238],209,"[209, 268, 2, 269, 175]",0.0,0.0
 M8 LBP,emd,00027.jpg,[67],2,"[2, 269, 175, 245, 236]",0.0,0.0
-M8 LBP,emd,00028.jpg,[86],91,"[91, 158, 206, 139, 71]",0.0,0.0
-M8 LBP,emd,00029.jpg,[133],133,"[133, 145, 228, 170, 142]",1.0,1.0
+M8 LBP,emd,00028.jpg,[86],91,"[91, 158, 206, 71, 139]",0.0,0.0
+M8 LBP,emd,00029.jpg,[133],133,"[133, 145, 170, 228, 142]",1.0,1.0
