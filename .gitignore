@@ -1,0 +1,9 @@
+# datasets (they are in the Virtual Campus)
+/BBDD/
+/qst1_w1/
+/qsd1_w1/
+
+# generated files
+*.npy
+__pycache__/
+.ipynb_checkpoints/
