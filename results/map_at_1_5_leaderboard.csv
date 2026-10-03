@@ -7,11 +7,11 @@ Rank,Descriptor,Distance,Method,MAP@1,MAP@5
 6,M5 CLAHE LAB,hellinger,M5 CLAHE LAB + hellinger,0.5,0.6122222222222222
 7,M5 CLAHE LAB,jensen_shannon,M5 CLAHE LAB + jensen_shannon,0.5,0.6066666666666667
 8,M5 CLAHE LAB,chi2,M5 CLAHE LAB + chi2,0.5,0.5944444444444444
-9,M7 Gradient orientation,L1,M7 Gradient orientation + L1,0.43333333333333335,0.5594444444444444
-10,M7 Gradient orientation,intersection,M7 Gradient orientation + intersection,0.43333333333333335,0.5594444444444444
-11,M3 LAB chroma,chi2,M3 LAB chroma + chi2,0.5,0.5444444444444445
-12,M3 LAB chroma,hellinger,M3 LAB chroma + hellinger,0.5,0.5427777777777778
-13,M2 HSV,emd,M2 HSV + emd,0.4666666666666667,0.5422222222222222
+9,M3 LAB chroma,chi2,M3 LAB chroma + chi2,0.5,0.5444444444444445
+10,M3 LAB chroma,hellinger,M3 LAB chroma + hellinger,0.5,0.5427777777777778
+11,M2 HSV,emd,M2 HSV + emd,0.4666666666666667,0.5422222222222222
+12,M7 Gradient orientation,L1,M7 Gradient orientation + L1,0.4,0.5416666666666666
+13,M7 Gradient orientation,intersection,M7 Gradient orientation + intersection,0.4,0.5416666666666666
 14,M3 LAB chroma,jensen_shannon,M3 LAB chroma + jensen_shannon,0.5,0.5361111111111112
 15,M3 LAB chroma,L1,M3 LAB chroma + L1,0.4666666666666667,0.5344444444444444
 16,M3 LAB chroma,intersection,M3 LAB chroma + intersection,0.4666666666666667,0.5344444444444444
@@ -34,8 +34,8 @@ Rank,Descriptor,Distance,Method,MAP@1,MAP@5
 33,M4 HSV chroma,intersection,M4 HSV chroma + intersection,0.36666666666666664,0.4483333333333333
 34,M3 LAB chroma,cosine,M3 LAB chroma + cosine,0.36666666666666664,0.44000000000000006
 35,M3 LAB chroma,correlation,M3 LAB chroma + correlation,0.36666666666666664,0.44000000000000006
-36,M7 Gradient orientation,euclidean,M7 Gradient orientation + euclidean,0.3333333333333333,0.4188888888888889
-37,M7 Gradient orientation,cosine,M7 Gradient orientation + cosine,0.3333333333333333,0.41444444444444445
+36,M7 Gradient orientation,euclidean,M7 Gradient orientation + euclidean,0.3333333333333333,0.4211111111111111
+37,M7 Gradient orientation,cosine,M7 Gradient orientation + cosine,0.3333333333333333,0.4011111111111111
 38,M2 HSV,cosine,M2 HSV + cosine,0.3333333333333333,0.39444444444444443
 39,M2 HSV,correlation,M2 HSV + correlation,0.3333333333333333,0.38722222222222225
 40,M4 HSV chroma,cosine,M4 HSV chroma + cosine,0.3333333333333333,0.375
@@ -45,9 +45,9 @@ Rank,Descriptor,Distance,Method,MAP@1,MAP@5
 44,M6 Weighted hue,hellinger,M6 Weighted hue + hellinger,0.3,0.36666666666666664
 45,M6 Weighted hue,jensen_shannon,M6 Weighted hue + jensen_shannon,0.3,0.36666666666666664
 46,M4 HSV chroma,correlation,M4 HSV chroma + correlation,0.3333333333333333,0.3555555555555555
-47,M7 Gradient orientation,emd,M7 Gradient orientation + emd,0.26666666666666666,0.33888888888888885
-48,M1 Grayscale,L1,M1 Grayscale + L1,0.3,0.31666666666666665
-49,M1 Grayscale,intersection,M1 Grayscale + intersection,0.3,0.31666666666666665
+47,M1 Grayscale,L1,M1 Grayscale + L1,0.3,0.31666666666666665
+48,M1 Grayscale,intersection,M1 Grayscale + intersection,0.3,0.31666666666666665
+49,M7 Gradient orientation,emd,M7 Gradient orientation + emd,0.23333333333333334,0.30833333333333335
 50,M6 Weighted hue,L1,M6 Weighted hue + L1,0.23333333333333334,0.3011111111111111
 51,M6 Weighted hue,intersection,M6 Weighted hue + intersection,0.23333333333333334,0.3011111111111111
 52,M1 Grayscale,chi2,M1 Grayscale + chi2,0.26666666666666666,0.2944444444444444
@@ -58,7 +58,7 @@ Rank,Descriptor,Distance,Method,MAP@1,MAP@5
 57,M1 Grayscale,emd,M1 Grayscale + emd,0.23333333333333334,0.27777777777777773
 58,M1 Grayscale,correlation,M1 Grayscale + correlation,0.23333333333333334,0.2733333333333333
 59,M6 Weighted hue,euclidean,M6 Weighted hue + euclidean,0.23333333333333334,0.2733333333333333
-60,M7 Gradient orientation,correlation,M7 Gradient orientation + correlation,0.16666666666666666,0.23722222222222225
+60,M7 Gradient orientation,correlation,M7 Gradient orientation + correlation,0.2,0.25222222222222224
 61,M6 Weighted hue,emd,M6 Weighted hue + emd,0.16666666666666666,0.2222222222222222
 62,M6 Weighted hue,cosine,M6 Weighted hue + cosine,0.16666666666666666,0.19833333333333333
 63,M8 LBP,cosine,M8 LBP + cosine,0.16666666666666666,0.19277777777777777
