@@ -27,10 +27,12 @@ pip install numpy opencv-python pandas matplotlib
 
 The QSD1 evaluation compares eight descriptors with nine distance measures and writes:
 
-- `results/map_at_1_5_leaderboard.csv`: MAP@1 and MAP@5 for all 72 combinations.
+
+- `results/map_at_1_5_leaderboard.csv`: Paramter optimized MAP@1 and MAP@5 for all combinations.
+- `results/map_at_1_5_leaderboard.csv`: MAP@1 and MAP@5 for all combinations.
 - `results/all_query_retrieval_results.csv`: top-five results and AP scores for every query-method pair.
 - `results/best_two_methods_per_query.csv`: per-query results for the top two methods.
 
-In the current run, CLAHE-LAB + L1 and CLAHE-LAB + histogram intersection tie for the best MAP@5 (0.6611), with MAP@1 of 0.6000.
+In the current run, CLAHE-LAB + L1 givesthe best MAP@5 (0.6872), with MAP@1 of 0.6333.
 
 The final QST1 cell saves a list of lists to `results/qst1_w1_results.pkl`. Each inner list contains the ten BBDD image IDs, as Python integers, in retrieval order; list positions correspond to numerically sorted QST1 query filenames.
