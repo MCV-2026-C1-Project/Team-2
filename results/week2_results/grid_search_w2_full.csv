@@ -79,8 +79,8 @@ Block,Block 8x8 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(8, 8)",-,65536,j
 Block,Block 4x4 | YCRCB 2D | Bins: 16,YCRCB|12|16,YCRCB,"(1, 2)",16,"(4, 4)",-,4096,chi2,0.7,0.7566666666666666
 Block,Block 8x8 | RGB 3D | Bins: 8,RGB|012|8,RGB,"(0, 1, 2)",8,"(8, 8)",-,32768,chi2,0.7,0.7566666666666666
 Block,Block 8x8 | RGB 3D | Bins: 8,RGB|012|8,RGB,"(0, 1, 2)",8,"(8, 8)",-,32768,jensen_shannon,0.7,0.7566666666666666
+Block,Block 8x8 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(8, 8)",-,65536,chi2,0.7,0.7555555555555556
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2), (4, 4), (8, 8))",equal,87040,hellinger,0.7,0.7555555555555554
-Block,Block 8x8 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(8, 8)",-,65536,chi2,0.7,0.7527777777777779
 Block,Block 4x4 | LAB 2D | Bins: 16,LAB|12|16,LAB,"(1, 2)",16,"(4, 4)",-,4096,jensen_shannon,0.7,0.7511111111111111
 Block,Block 8x8 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(8, 8)",-,65536,L1,0.7,0.75
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,87040,chi2,0.7,0.75
@@ -107,10 +107,10 @@ Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(
 Block,Block 4x4 | RGB 3D | Bins: 8,RGB|012|8,RGB,"(0, 1, 2)",8,"(4, 4)",-,8192,hellinger,0.7,0.7166666666666667
 Pyramid,Pyramid (1x1->2x2->4x4) [fine] | RGB 3D | Bins: 16,RGB|012|16,RGB,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4))",fine,86016,jensen_shannon,0.7,0.7166666666666667
 Block,Block 8x8 | LAB 3D | Bins: 8,LAB|012|8,LAB,"(0, 1, 2)",8,"(8, 8)",-,32768,hellinger,0.7,0.711111111111111
+Block,Block 4x4 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(4, 4)",-,65536,hellinger,0.7,0.711111111111111
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,348160,L1,0.7,0.711111111111111
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | RGB 3D | Bins: 16,RGB|012|16,RGB,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",equal,348160,hellinger,0.7,0.711111111111111
 Block,Block 8x8 | LAB 3D | Bins: 8,LAB|012|8,LAB,"(0, 1, 2)",8,"(8, 8)",-,32768,jensen_shannon,0.7,0.7083333333333334
-Block,Block 4x4 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(4, 4)",-,65536,hellinger,0.7,0.7083333333333334
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | LAB 3D | Bins: 8,LAB|012|8,LAB,"(0, 1, 2)",8,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,43520,hellinger,0.7,0.7066666666666667
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | LAB 3D | Bins: 8,LAB|012|8,LAB,"(0, 1, 2)",8,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,43520,jensen_shannon,0.7,0.7066666666666667
 Pyramid,Pyramid (1x1->2x2->4x4) [fine] | RGB 3D | Bins: 16,RGB|012|16,RGB,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4))",fine,86016,hellinger,0.7,0.7066666666666667
@@ -136,6 +136,7 @@ Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | LAB 3D | Bins: 16,LAB|012|16,LAB,"
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2), (4, 4), (8, 8))",equal,87040,L1,0.6666666666666666,0.7138888888888888
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | YCRCB 2D | Bins: 32,YCRCB|12|32,YCRCB,"(1, 2)",32,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,87040,jensen_shannon,0.6666666666666666,0.7138888888888888
 Block,Block 4x4 | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"(4, 4)",-,8192,L1,0.6666666666666666,0.7083333333333334
+Block,Block 4x4 | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"(4, 4)",-,8192,chi2,0.6666666666666666,0.7083333333333334
 Block,Block 4x4 | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"(4, 4)",-,8192,jensen_shannon,0.6666666666666666,0.7083333333333334
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,43520,L1,0.6666666666666666,0.7083333333333334
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2), (4, 4), (8, 8))",equal,43520,jensen_shannon,0.6666666666666666,0.7066666666666667
@@ -206,7 +207,6 @@ Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 2D | Bins: 16,HSV|01|16,HSV,"(
 Pyramid,Pyramid (1x1->2x2->4x4) [fine] | LAB 2D | Bins: 16,LAB|12|16,LAB,"(1, 2)",16,"((1, 1), (2, 2), (4, 4))",fine,5376,jensen_shannon,0.6333333333333333,0.6966666666666667
 Pyramid,Pyramid (1x1->2x2->4x4) [equal] | YCRCB 2D | Bins: 16,YCRCB|12|16,YCRCB,"(1, 2)",16,"((1, 1), (2, 2), (4, 4))",equal,5376,jensen_shannon,0.6333333333333333,0.6944444444444444
 Pyramid,Pyramid (1x1->2x2->4x4) [fine] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2), (4, 4))",fine,21504,jensen_shannon,0.6333333333333333,0.6944444444444444
-Block,Block 4x4 | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"(4, 4)",-,8192,chi2,0.6333333333333333,0.6916666666666667
 Pyramid,Pyramid (1x1->2x2->4x4) [fine] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2), (4, 4))",fine,21504,chi2,0.6333333333333333,0.6916666666666667
 Pyramid,Pyramid (1x1->2x2->4x4) [equal] | YCRCB 2D | Bins: 16,YCRCB|12|16,YCRCB,"(1, 2)",16,"((1, 1), (2, 2), (4, 4))",equal,5376,L1,0.6333333333333333,0.69
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | YCRCB 3D | Bins: 16,YCRCB|012|16,YCRCB,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,348160,jensen_shannon,0.6333333333333333,0.69
@@ -555,12 +555,12 @@ Block,Block 2x2 | YCRCB 2D | Bins: 32,YCRCB|12|32,YCRCB,"(1, 2)",32,"(2, 2)",-,4
 Block,Block 2x2 | YCRCB 2D | Bins: 32,YCRCB|12|32,YCRCB,"(1, 2)",32,"(2, 2)",-,4096,jensen_shannon,0.5,0.5416666666666666
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | YCRCB 2D | Bins: 32,YCRCB|12|32,YCRCB,"(1, 2)",32,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,87040,euclidean,0.5,0.5416666666666666
 Pyramid,Pyramid (1x1->2x2->4x4) [fine] | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"((1, 1), (2, 2), (4, 4))",fine,21504,L1,0.5,0.5411111111111111
-Block,Block 2x2 | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"(2, 2)",-,1024,jensen_shannon,0.5,0.5355555555555556
 Block,Block 2x2 | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"(2, 2)",-,1024,chi2,0.5,0.5344444444444444
 Pyramid,Pyramid (1x1->2x2) [equal] | YCRCB 3D | Bins: 16,YCRCB|012|16,YCRCB,"(0, 1, 2)",16,"((1, 1), (2, 2))",equal,20480,chi2,0.5,0.5333333333333333
 Pyramid,Pyramid (1x1->2x2) [fine] | RGB 3D | Bins: 16,RGB|012|16,RGB,"(0, 1, 2)",16,"((1, 1), (2, 2))",fine,20480,cosine,0.5,0.5333333333333333
 Pyramid,Pyramid (1x1->2x2) [fine] | RGB 3D | Bins: 16,RGB|012|16,RGB,"(0, 1, 2)",16,"((1, 1), (2, 2))",fine,20480,correlation,0.5,0.5333333333333333
 Pyramid,Pyramid (1x1->2x2) [equal] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2))",equal,5120,euclidean,0.5,0.5316666666666666
+Block,Block 2x2 | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"(2, 2)",-,1024,jensen_shannon,0.5,0.5288888888888889
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | RGB 3D | Bins: 8,RGB|012|8,RGB,"(0, 1, 2)",8,"((1, 1), (2, 2), (4, 4), (8, 8))",equal,43520,cosine,0.5,0.5277777777777778
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | RGB 3D | Bins: 8,RGB|012|8,RGB,"(0, 1, 2)",8,"((1, 1), (2, 2), (4, 4), (8, 8))",equal,43520,correlation,0.5,0.5277777777777778
 Pyramid,Pyramid (1x1->2x2) [equal] | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"((1, 1), (2, 2))",equal,1280,chi2,0.5,0.5261111111111111
@@ -668,11 +668,11 @@ Pyramid,Pyramid (1x1->2x2->4x4) [fine] | RGB 3D | Bins: 16,RGB|012|16,RGB,"(0, 1
 Block,Block 2x2 | LAB 3D | Bins: 16,LAB|012|16,LAB,"(0, 1, 2)",16,"(2, 2)",-,16384,euclidean,0.4666666666666667,0.4777777777777778
 Block,Block 4x4 | RGB 3D | Bins: 16,RGB|012|16,RGB,"(0, 1, 2)",16,"(4, 4)",-,65536,euclidean,0.4666666666666667,0.4666666666666667
 Pyramid,Pyramid (1x1->2x2) [fine] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",fine,2560,hellinger,0.43333333333333335,0.5522222222222222
+Block,Block 2x2 | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"(2, 2)",-,2048,L1,0.43333333333333335,0.55
 Pyramid,Pyramid (1x1->2x2) [fine] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",fine,2560,chi2,0.43333333333333335,0.55
 Pyramid,Pyramid (1x1->2x2) [equal] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",equal,2560,jensen_shannon,0.43333333333333335,0.5472222222222223
 Pyramid,Pyramid (1x1->2x2) [fine] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",fine,2560,jensen_shannon,0.43333333333333335,0.5472222222222223
 Pyramid,Pyramid (1x1->2x2) [equal] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",equal,2560,hellinger,0.43333333333333335,0.5455555555555556
-Block,Block 2x2 | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"(2, 2)",-,2048,L1,0.43333333333333335,0.5444444444444445
 Block,Block 2x2 | YCRCB 2D | Bins: 16,YCRCB|12|16,YCRCB,"(1, 2)",16,"(2, 2)",-,1024,euclidean,0.43333333333333335,0.5427777777777777
 Pyramid,Pyramid (1x1->2x2) [fine] | LAB 2D | Bins: 16,LAB|12|16,LAB,"(1, 2)",16,"((1, 1), (2, 2))",fine,1280,L1,0.43333333333333335,0.5416666666666666
 Pyramid,Pyramid (1x1->2x2) [equal] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",equal,2560,chi2,0.43333333333333335,0.5416666666666666
@@ -717,9 +717,9 @@ Block,Block 2x2 | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"(2, 2)",-,4096,co
 Block,Block 8x8 | YCRCB 3D | Bins: 16,YCRCB|012|16,YCRCB,"(0, 1, 2)",16,"(8, 8)",-,262144,euclidean,0.43333333333333335,0.47777777777777775
 Pyramid,Pyramid (1x1->2x2) [equal] | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"((1, 1), (2, 2))",equal,5120,L1,0.43333333333333335,0.4761111111111111
 Block,Block 8x8 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(8, 8)",-,262144,cosine,0.43333333333333335,0.4761111111111111
+Block,Block 8x8 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(8, 8)",-,262144,correlation,0.43333333333333335,0.4761111111111111
 Pyramid,Pyramid (1x1->2x2) [fine] | LAB 3D | Bins: 16,LAB|012|16,LAB,"(0, 1, 2)",16,"((1, 1), (2, 2))",fine,20480,euclidean,0.43333333333333335,0.475
 Pyramid,Pyramid (1x1->2x2->4x4) [fine] | YCRCB 3D | Bins: 16,YCRCB|012|16,YCRCB,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4))",fine,86016,euclidean,0.43333333333333335,0.475
-Block,Block 8x8 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(8, 8)",-,262144,correlation,0.43333333333333335,0.4744444444444445
 Block,Block 2x2 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(2, 2)",-,4096,L1,0.43333333333333335,0.47333333333333333
 Pyramid,Pyramid (1x1->2x2) [equal] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2))",equal,5120,cosine,0.43333333333333335,0.47333333333333333
 Pyramid,Pyramid (1x1->2x2) [equal] | LAB 2D | Bins: 32,LAB|12|32,LAB,"(1, 2)",32,"((1, 1), (2, 2))",equal,5120,correlation,0.43333333333333335,0.47333333333333333
@@ -808,10 +808,10 @@ Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 2D | Bins: 32,HSV|01|32,HSV,"(
 Block,Block 4x4 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(4, 4)",-,16384,cosine,0.3333333333333333,0.41611111111111115
 Block,Block 4x4 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(4, 4)",-,16384,correlation,0.3333333333333333,0.41611111111111115
 Block,Block 8x8 | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"(8, 8)",-,16384,euclidean,0.3333333333333333,0.38999999999999996
-Pyramid,Pyramid (1x1->2x2) [equal] | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"((1, 1), (2, 2))",equal,1280,euclidean,0.3333333333333333,0.38999999999999996
 Pyramid,Pyramid (1x1->2x2) [fine] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",fine,2560,correlation,0.3333333333333333,0.38999999999999996
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,348160,cosine,0.3333333333333333,0.38999999999999996
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,348160,correlation,0.3333333333333333,0.38999999999999996
+Pyramid,Pyramid (1x1->2x2) [equal] | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"((1, 1), (2, 2))",equal,1280,euclidean,0.3333333333333333,0.3883333333333333
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [equal] | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",equal,21760,cosine,0.3333333333333333,0.3844444444444444
 Pyramid,Pyramid (1x1->2x2) [fine] | HSV 3D | Bins: 8,HSV|012|8,HSV,"(0, 1, 2)",8,"((1, 1), (2, 2))",fine,2560,cosine,0.3333333333333333,0.3844444444444444
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 2D | Bins: 16,HSV|01|16,HSV,"(0, 1)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,21760,euclidean,0.3333333333333333,0.38444444444444437
@@ -879,5 +879,5 @@ Pyramid,Pyramid (1x1->2x2) [fine] | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)"
 Pyramid,Pyramid (1x1->2x2->4x4->8x8) [fine] | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"((1, 1), (2, 2), (4, 4), (8, 8))",fine,348160,euclidean,0.2,0.22222222222222224
 Pyramid,Pyramid (1x1->2x2) [equal] | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"((1, 1), (2, 2))",equal,20480,euclidean,0.2,0.21333333333333335
 Block,Block 4x4 | HSV 2D | Bins: 32,HSV|01|32,HSV,"(0, 1)",32,"(4, 4)",-,16384,euclidean,0.2,0.20833333333333334
-Block,Block 4x4 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(4, 4)",-,65536,euclidean,0.16666666666666666,0.18444444444444444
+Block,Block 4x4 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(4, 4)",-,65536,euclidean,0.16666666666666666,0.18611111111111114
 Block,Block 8x8 | HSV 3D | Bins: 16,HSV|012|16,HSV,"(0, 1, 2)",16,"(8, 8)",-,262144,euclidean,0.13333333333333333,0.15944444444444444
