@@ -1,9 +1,12 @@
-# datasets (they are in the Virtual Campus)
-/BBDD/
-/qst1_w1/
-/qsd1_w1/
-/qsd2_w1/
+# datasets: never pushed, download them from the Virtual Campus into weekN/data/
+data/
+
 # generated files
 *.npy
 __pycache__/
 .ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
