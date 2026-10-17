@@ -1,5 +1,17 @@
 # datasets: never pushed, download them from the Virtual Campus into weekN/data/
 data/
+# dataset folders anywhere in the repo, even outside data/ (e.g. unzipped at the root)
+# (patterns need "_w": git on macOS ignores case, so qst*/ would also hide results/QST1/)
+BBDD/
+qsd*_w*/
+qst*_w*/
+# dataset archives, zipped or not
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
 
 # generated files
 *.npy
