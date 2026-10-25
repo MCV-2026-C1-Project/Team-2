@@ -1,6 +1,6 @@
 # Team 2: Museum Painting Retrieval (MCV C1)
 
-Retrieval of museum paintings from the `BBDD` database using colour histogram descriptors, similarity measures and, from week 2 on, background removal.
+Retrieval of museum paintings from the `BBDD` database using colour histogram descriptors, similarity measures, background removal (from week 2 on) and, from week 3 on, noise filtering, texture descriptors and photos with up to two paintings.
 
 **Team:** Adrià Cantarero Carreras · Ivan Martin Campoy · Irene Pumares Benaiges · Lavish Ramchandani
 
@@ -15,6 +15,10 @@ Team-2/
 ├── week2/
 │   ├── C1_week2.ipynb        # block/pyramid histograms, background removal, QSD2 retrieval, QST1/QST2 predictions
 │   ├── data/                 # BBDD/, qsd1_w1/, qsd2_w1/, qst_w2/  (not tracked)
+│   └── results/
+├── week3/
+│   ├── C1_week3.ipynb        # noise filtering, texture descriptors, up to two paintings per photo, QST1/QST2 predictions
+│   ├── data/                 # BBDD/, qsd1_w3/, qsd2_w3/, qst_w3/  (not tracked)
 │   └── results/
 ├── utils/
 │   └── extra_descriptors.py  # shared descriptors + retrieval / output helpers
@@ -34,6 +38,7 @@ Datasets are **not** in the repository (`data/` is git-ignored). Download them f
 |------|-------------------------|
 | 1 | `BBDD/`, `qsd1_w1/`, `qst1_w1/` |
 | 2 | `BBDD/`, `qsd1_w1/`, `qsd2_w1/`, `qst_w2/qst1_w2/`, `qst_w2/qst2_w2/` |
+| 3 | `BBDD/`, `qsd1_w3/`, `qsd2_w3/`, `qst_w3/qst1_w3/`, `qst_w3/qst2_w3/` |
 
 Week 2 layout (the notebook reads exactly these paths):
 
@@ -107,3 +112,47 @@ Submitted methods (QST1 and QST2):
 | method2 | Block 8x8, LAB 2D, 16 bins | Jensen–Shannon | 0.800 / 0.834 | 0.600 / 0.636 |
 
 method2 is the best configuration of the second-best descriptor in the grid search. On QST2, both methods use our masks and the `crop` mode.
+
+## Week 3 (`week3/C1_week3.ipynb`)
+
+Week 3 layout (unzip the three archives into `week3/data/` and copy `BBDD/` there):
+
+```
+week3/data/
+├── BBDD/                 # bbdd_00000.jpg ... (+ .png, .txt, relationships.pkl)
+├── qsd1_w3/              # QSD1-W3: 30 cropped queries, some noisy, some with hue changes + non_augmented/, gt_corresps.pkl, augmentations.pkl
+├── qsd2_w3/              # QSD2-W3: 30 photos with up to two paintings + GT masks (.png), non_augmented/, gt_corresps.pkl, frames.pkl, augmentations.pkl
+└── qst_w3/               # test sets (no ground truth)
+    ├── qst1_w3/          # QST1-W3: 50 cropped queries
+    └── qst2_w3/          # QST2-W3: 30 photos with up to two paintings
+```
+
+1. **Noise filtering.** Detect noisy photos (isolated-pixel and σ detectors), then compare 10 linear, non-linear and morphological filters with PSNR / SSIM against the clean versions. Only the photos detected as noisy are filtered.
+2. **Texture descriptors.** Block DCT (zig-zag, first N coefficients) and block multiscale LBP, with a grid search on QSD1-W3 using only texture.
+3. **Up to two paintings per photo.** The Week 2 background removal, after denoising, keeps up to two regions (each at least 5% of the photo) instead of the largest one, sorted left to right. Evaluated with pixel P / R / F1 on QSD2-W3.
+4. **Retrieval on QSD2-W3.** Each detected painting is cropped and described with LBP. The result has one more list level: one list of 10 BBDD ids per painting.
+5. **Blind submission.** QST1 and QST2 with one method (`method1`), plus our QST2 masks. Nothing is tuned on the test sets.
+
+Outputs in `week3/results/`:
+
+- `task1_*`: noise detector scores, filter comparison (`task1_filters_psnr_ssim.csv`) and examples.
+- `task2_dct_*`, `task2_lbp_*`: grid searches, results by type of query and examples.
+- `task3_background_removal.csv`, `task3_w2_vs_w3.png`: Week 2 vs Week 3 masks on QSD2-W3.
+- `task4_descriptors.csv`, `task4_error_sources.csv`, `task4_failures.png`: descriptor choice, error analysis and wrong top-1 cases.
+- `QSD2/result.pkl`: QSD2-W3 correspondences with the selected method.
+- `QST1/method1/result.pkl`, `QST2/method1/result.pkl`: submission files. Each is a list with one entry per photo, and each entry is a list with one list of 10 integer BBDD ids per painting (QST1 always has one painting per photo).
+- `QST2/method1/*.png`: one binary mask (0/255) per photo with all its paintings, named like the photo.
+- `task5_qst2_masks.png`: visual check of the QST2 masks and top-1 results.
+
+Noise: the detector finds 7/7 noisy queries in QSD1-W3 with no false positives. The best filter is the median 3x3 (PSNR 30.78 dB, SSIM 0.797, against 23.73 dB / 0.488 without filtering).
+
+Texture (QSD1-W3): the best DCT is a 4x4 grid with 21 coefficients and L1 distance (MAP@1 = 0.933). The best LBP is an 8x8 grid with radii 1 and 2 and L1 distance (MAP@1 = MAP@5 = 1.000).
+
+Background removal (QSD2-W3):
+
+| Method | Precision | Recall | F1 | Right painting count |
+|--------|-----------|--------|----|----------------------|
+| Week 2 | 0.969 | 0.853 | 0.893 | 21/30 |
+| Week 3 | 0.968 | 0.969 | 0.967 | 29/30 |
+
+Retrieval (QSD2-W3, 39 paintings): LBP 8x8 with radii 1, 2 and 3 and L1 distance gives MAP@1 = 0.821 and MAP@5 = 0.827. It also scores 1.000 on QSD1-W3, and it is the submitted method for QST1 and QST2. With ground-truth masks MAP@1 is 0.897, and with the clean photos 0.974, so residual noise is the main limit.
