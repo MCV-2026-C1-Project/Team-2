@@ -131,7 +131,7 @@ week3/data/
 2. **Texture descriptors.** Block DCT (zig-zag, first N coefficients) and block multiscale LBP, with a grid search on QSD1-W3 using only texture.
 3. **Up to two paintings per photo.** The Week 2 background removal, after denoising, keeps up to two regions (each at least 5% of the photo) instead of the largest one, sorted left to right. Evaluated with pixel P / R / F1 on QSD2-W3.
 4. **Retrieval on QSD2-W3.** Each detected painting is cropped and described with LBP. The result has one more list level: one list of 10 BBDD ids per painting.
-5. **Blind submission.** QST1 and QST2 with one method (`method1`), plus our QST2 masks. Nothing is tuned on the test sets.
+5. **Blind submission.** QST1 and QST2 with one method (`method1`), plus our QST2 masks. This week only the best method is submitted for each test set, and nothing is tuned on the test sets.
 
 Outputs in `week3/results/`:
 
