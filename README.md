@@ -32,6 +32,8 @@ Team-2/
 pip install -r requirements.txt
 ```
 
+The same requirements cover weeks 1 to 3: no new packages were added in week 3.
+
 Datasets are **not** in the repository (`data/` is git-ignored). Download them from the Virtual Campus and place them in each week's `data/` folder:
 
 | Week | Needed in `weekN/data/` |
