@@ -1,6 +1,6 @@
 # Team 2: Museum Painting Retrieval (MCV C1)
 
-Retrieval of museum paintings from the `BBDD` database using colour histogram descriptors, similarity measures, background removal (from week 2 on) and, from week 3 on, noise filtering, texture descriptors and photos with up to two paintings.
+Retrieval of museum paintings from the `BBDD` database using colour histogram descriptors, similarity measures, background removal (from week 2 on) from week 3 on, noise filtering, texture descriptors and photos with up to two paintings and, from week 4 on, local descriptors (keypoints), unknown paintings and painting detection by matching.
 
 **Team:** Adrià Cantarero Carreras · Ivan Martin Campoy · Irene Pumares Benaiges · Lavish Ramchandani
 
@@ -20,6 +20,10 @@ Team-2/
 │   ├── C1_week3.ipynb        # noise filtering, texture descriptors, up to two paintings per photo, QST1/QST2 predictions
 │   ├── data/                 # BBDD/, qsd1_w3/, qsd2_w3/, qst_w3/  (not tracked)
 │   └── results/
+├── week4/
+│   ├── C1_week4.ipynb        # SIFT, ORB, Harris-Laplace, unknown detection, comparison with week 3, QST1 predictions
+│   ├── data/                 # BBDD/, qsd1_w4/, qst1_w4/, plus qsd1_w3/ and qsd2_w3/ for the checks  (not tracked)
+│   └── results/
 ├── utils/
 │   └── extra_descriptors.py  # shared descriptors + retrieval / output helpers
 ├── requirements.txt
@@ -32,7 +36,7 @@ Team-2/
 pip install -r requirements.txt
 ```
 
-The same requirements cover weeks 1 to 3: no new packages were added in week 3.
+Weeks 1 to 3 need no new packages. **Week 4 needs the contrib build of OpenCV** (Harris-Laplace is only there), so `requirements.txt` lists `opencv-contrib-python`. Only one OpenCV package can be installed at a time: if you had `opencv-python`, run `pip uninstall opencv-python` before `pip install -r requirements.txt`.
 
 Datasets are **not** in the repository (`data/` is git-ignored). Download them from the Virtual Campus and place them in each week's `data/` folder:
 
@@ -41,6 +45,7 @@ Datasets are **not** in the repository (`data/` is git-ignored). Download them f
 | 1 | `BBDD/`, `qsd1_w1/`, `qst1_w1/` |
 | 2 | `BBDD/`, `qsd1_w1/`, `qsd2_w1/`, `qst_w2/qst1_w2/`, `qst_w2/qst2_w2/` |
 | 3 | `BBDD/`, `qsd1_w3/`, `qsd2_w3/`, `qst_w3/qst1_w3/`, `qst_w3/qst2_w3/` |
+| 4 | `BBDD/`, `qsd1_w4/`, `qst1_w4/` (the Week 3 sets are only used for the generalisation checks) |
 
 Week 2 layout (the notebook reads exactly these paths):
 
@@ -158,3 +163,52 @@ Background removal (QSD2-W3):
 | Week 3 | 0.968 | 0.969 | 0.967 | 29/30 |
 
 Retrieval (QSD2-W3, 39 paintings): LBP 8x8 with radii 1, 2 and 3 and L1 distance gives MAP@1 = 0.821 and MAP@5 = 0.827. It also scores 1.000 on QSD1-W3, and it is the submitted method for QST1 and QST2. With ground-truth masks MAP@1 is 0.897, and with the clean photos 0.974, so residual noise is the main limit.
+
+## Week 4 (`week4/C1_week4.ipynb`)
+
+Week 4 layout (the notebook reads exactly these paths):
+
+```
+week4/data/
+├── BBDD/                 # bbdd_00000.jpg ... (+ .png, .txt, relationships.pkl)
+├── qsd1_w4/              # QSD1-W4: 30 photos, up to two paintings each, 10 of the 39 paintings are not in the museum
+│                         #   + GT masks (.png), non_augmented/, gt_corresps.pkl (-1 = not in the museum), frames.pkl, augmentations.pkl
+├── qst1_w4/              # QST1-W4: 30 photos (no ground truth)
+├── qsd1_w3/, qsd2_w3/    # Week 3 development sets, only for the generalisation checks (the notebook skips them if they are missing)
+```
+
+The two Week 3 sets are read from `../week3/data/` by the checks of the Unknown detection and Improvement sections, so keep them there too.
+
+1. **Common pipeline.** Week 3 denoising (median 3x3 only on the photos detected as noisy), painting detection by wall colour (Lab) with any number of paintings, ordered left to right or top to bottom, and one cropped image per painting. The output has one list of 10 BBDD ids per painting, or `[-1]` if the painting is not in the museum.
+2. **Keypoints, local descriptors and matching.** SIFT (DoG detector, L2 distance, ratio test), ORB (FAST + rBRIEF, Hamming distance, cross-check) and Harris-Laplace keypoints with the SIFT descriptor. Matches are verified with a RANSAC homography and the score of a BBDD image is its number of inliers. Includes a study of the similarity metrics (L2 against Hamming, ratio test against cross-check).
+3. **Unknown detection.** A painting is unknown if its best score is below a threshold `T`, chosen with the best F1 on QSD1-W4 (middle of the interval of best thresholds) and checked on the Week 3 sets. The scores of SIFT, ORB and Harris-Laplace are added.
+4. **Evaluation.** map@k on all 39 paintings of QSD1-W4 and comparison with the best Week 3 system (LBP 8x8, radii 1, 2, 3, L1) on the same cropped images.
+5. **Improvement: painting detection by matching.** The RANSAC homography also gives the position of the matched painting in the photo. Two steps are added after the colour detection: split a cropped image that contains two paintings, and find the paintings the colour detection missed. Same threshold `T` and no image-specific rules.
+6. **Blind submission.** QST1-W4 with one method (`method1`): the final system with the improved detection. Nothing is tuned on the test set.
+
+Outputs in `week4/results/`:
+
+- `sift_*`, `orb_*`, `hl_*`: configuration grid searches, keypoint figures, matches and results painting by painting for each descriptor.
+- `descriptors_comparison.csv`, `descriptors_comparison_all.csv`: speed, keypoints and map@1 (by type of photo) of the descriptors.
+- `similarity_metrics.csv`: L2 against Hamming, ratio test against cross-check.
+- `unknown_detection.csv`, `unknown_threshold.png`: threshold, F1 and generalisation check of every system.
+- `task3_*`: comparison with the Week 3 system.
+- `improvement_*`: detection by matching, before and after, on QSD1-W4, QSD2-W3 and QST1-W4.
+- `QST1/method1/result.pkl`: submission with the improved detection. `QST1_colour_detection/result.pkl`: same system with the colour detection only, kept for comparison. Each file is a list with one entry per photo, and each entry has one list per painting: 10 integer BBDD ids, or `[-1]`.
+
+Results (QSD1-W4, 39 paintings, 10 not in the museum):
+
+| System | map@1 | map@5 |
+|--------|-------|-------|
+| Week 3: LBP (never returns `[-1]`) | 0.462 | 0.481 |
+| SIFT, ORB or Harris-Laplace alone (no unknown detection) | 0.590 | 0.603 |
+| SIFT + ORB + Harris-Laplace + threshold, colour detection | 0.846 | 0.859 |
+| same, with detection by matching | **0.974** | 0.974 |
+
+- On the 29 paintings in the museum each descriptor gets map@1 = 0.793 (23/29): the errors are paintings lost by the colour detection, not by the descriptors.
+- Unknown detection: F1 = 0.95 with the three descriptors added (T = 9.6, precision 0.91, recall 1.00), against 0.91 with any single descriptor. None of the paintings of the Week 3 sets (all in the museum) gets `[-1]`.
+- Detection by matching: photos with the right number of paintings 26/30 → 29/30, mask F1 0.898 → 0.912. On the Week 3 set QSD2-W3 it does not hurt: map@1 0.949 → 1.000.
+- Cost: about 1 s per cropped image for the three descriptors, against 0.02 s for LBP.
+- QST1-W4 submission: 40 paintings found in 30 photos, 8 answered `[-1]`.
+
+Final presentation slides: **[ADD THE LINK TO THE SLIDES HERE]**
