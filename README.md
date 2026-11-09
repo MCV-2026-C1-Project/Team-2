@@ -1,5 +1,7 @@
 # Team 2: Museum Painting Retrieval (MCV C1)
 
+Final presentation slides: ** https://docs.google.com/presentation/d/1cfQbLzcuwFmyH49pSCYHZVM48wVVUEVn0QIhIWWGoPs/edit?usp=sharing **
+
 Retrieval of museum paintings from the `BBDD` database using colour histogram descriptors, similarity measures, background removal (from week 2 on) from week 3 on, noise filtering, texture descriptors and photos with up to two paintings and, from week 4 on, local descriptors (keypoints), unknown paintings and painting detection by matching.
 
 **Team:** Adrià Cantarero Carreras · Ivan Martin Campoy · Irene Pumares Benaiges · Lavish Ramchandani
@@ -210,5 +212,3 @@ Results (QSD1-W4, 39 paintings, 10 not in the museum):
 - Detection by matching: photos with the right number of paintings 26/30 → 29/30, mask F1 0.898 → 0.912. On the Week 3 set QSD2-W3 it does not hurt: map@1 0.949 → 1.000.
 - Cost: about 1 s per cropped image for the three descriptors, against 0.02 s for LBP.
 - QST1-W4 submission: 40 paintings found in 30 photos, 8 answered `[-1]`.
-
-Final presentation slides: **[ADD THE LINK TO THE SLIDES HERE]**
